@@ -1,0 +1,110 @@
+
+int a = 100;
+0~31
+
+int *p = &a;
+
+int b = p;
+
+int c = *p;
+
+sizeof(a) 
+
+c语言中的变量类型
+	1、基本类型：
+		整型（长整型 long，短整型 short，有符号，无符号 unsigned）
+		浮点型（浮点型 float,双精度型 double）
+		字符型(char(整形))
+		字符数组(char[])
+		字符串
+		布尔型
+		
+	2、指针类型
+		指向变量的指针
+		指向函数的指针
+
+c语言中的运算符
+	++ --
+	运算符的优先级()
+
+c语言中的程序流程控制
+	1、顺序执行
+	2、条件(分支)判断
+		(if(布尔表达式) | else if() | else )
+		(switch(整型) case 0: break;)
+	3、循环
+		for(;逻辑表达式;)
+		while(逻辑表达式)
+		do - while(逻辑表达式)
+		foreach 
+	4、goto
+	
+c语言中的数组
+1、整个数组在内存中占的字节数
+2、一个元素在内存中占的字节数
+
+c语言中的方法(函数)function
+1、方法定义的四个要素
+	返回值的类型 
+	方法的名称
+	方法的参数（形式参数）
+	方法体
+2、方法的调用
+	通过方法名和实际参数来调用
+3、方法签名(方法的重载overload)
+	 方法的名称 + 方法的形参列表
+
+c语言中变量的作用域
+{
+	int i = 0;
+	代码块
+}
+
+	局部变量
+	全局变量
+	
+c语言中的枚举类型
+	使用场景：有限个值，值的数量不多
+	enum Season {SPRING,SUMMER,AUTUMN,WINTER};
+	枚举类型的使用：
+	1、自定义一个枚举类型
+	2、通过enum+枚举类型名来定义枚举类型的变量
+	注：变量的赋值要通过常量名来赋值
+
+typedef关键字
+	给已有的类型，取一个别名
+	typedef 已有类型的名称 别名
+	
+
+c语言中的结构体
+	struct CGPoint{
+		float x;
+		float y;
+	}
+
+	struct CGSize{
+		float width;
+		float height
+	}
+	
+	struct rect{
+		CGPoint point;
+		CGSize  size;
+	}
+	
+c语言中的编译预处理命令
+	特征：1、以#开头
+			 2、通常位于程序文件开始
+			 例：#include/#import ""/<> 
+			 main.c <- Function.h <- string.h
+							
+	1、包含 #include #import
+	2、宏定义 #define #undef
+	3、带参数的宏
+	4、条件编译 #ifdef #ifndef #else #endif
+	5、一般条件编译 #if #elif #else #endif
+	 
+
+	 
+
+

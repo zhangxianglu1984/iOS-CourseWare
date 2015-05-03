@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0610"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D880264A1AEF764F00E66C3E"
+               BuildableName = "Demo_UIViewController_lifeCycle.app"
+               BlueprintName = "Demo_UIViewController_lifeCycle"
+               ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D88026631AEF765000E66C3E"
+               BuildableName = "Demo_UIViewController_lifeCycleTests.xctest"
+               BlueprintName = "Demo_UIViewController_lifeCycleTests"
+               ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D88026631AEF765000E66C3E"
+               BuildableName = "Demo_UIViewController_lifeCycleTests.xctest"
+               BlueprintName = "Demo_UIViewController_lifeCycleTests"
+               ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D880264A1AEF764F00E66C3E"
+            BuildableName = "Demo_UIViewController_lifeCycle.app"
+            BlueprintName = "Demo_UIViewController_lifeCycle"
+            ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D880264A1AEF764F00E66C3E"
+            BuildableName = "Demo_UIViewController_lifeCycle.app"
+            BlueprintName = "Demo_UIViewController_lifeCycle"
+            ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D880264A1AEF764F00E66C3E"
+            BuildableName = "Demo_UIViewController_lifeCycle.app"
+            BlueprintName = "Demo_UIViewController_lifeCycle"
+            ReferencedContainer = "container:Demo_UIViewController_lifeCycle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

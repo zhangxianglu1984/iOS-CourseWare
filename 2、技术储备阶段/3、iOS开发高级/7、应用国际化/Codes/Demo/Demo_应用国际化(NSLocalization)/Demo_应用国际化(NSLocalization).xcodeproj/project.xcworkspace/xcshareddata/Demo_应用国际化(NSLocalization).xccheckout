@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ACC30661-69E5-47B7-8D8F-7F2E2778284A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Demo_应用国际化(NSLocalization)</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDE15179528C7AAC9CA25737C8B8A50D7B31C788</key>
+		<string>https://github.com/zhangxianglu1984/iOS-CourseWare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>2、技术储备阶段/3、iOS开发高级/7、应用国际化/Codes/Demo/Demo_应用国际化(NSLocalization)/Demo_应用国际化(NSLocalization).xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDE15179528C7AAC9CA25737C8B8A50D7B31C788</key>
+		<string>../../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangxianglu1984/iOS-CourseWare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDE15179528C7AAC9CA25737C8B8A50D7B31C788</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDE15179528C7AAC9CA25737C8B8A50D7B31C788</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-CourseWare</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="IMCMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxt-c9-qqD">
+                                <rect key="frame" x="136" y="238" width="143" height="260"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="250"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP0-OI-X3E">
+                                <rect key="frame" x="16" y="623" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.8524016204" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="3o6-9T-qKe"/>
+                                    <constraint firstAttribute="height" constant="44" id="xQc-0b-z8a"/>
+                                </constraints>
+                                <state key="normal" title="开始">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8eV-td-gag"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRC-kO-ZLH">
+                                <rect key="frame" x="233" y="623" width="100" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.54392903729999997" blue="0.80769077089999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="重置">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EP0-OI-X3E" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="4LR-Ts-4FP"/>
+                            <constraint firstItem="EP0-OI-X3E" firstAttribute="height" secondItem="FRC-kO-ZLH" secondAttribute="height" id="Pk7-Xc-CSe"/>
+                            <constraint firstItem="EP0-OI-X3E" firstAttribute="bottom" secondItem="FRC-kO-ZLH" secondAttribute="bottom" id="WSY-dq-YNL"/>
+                            <constraint firstAttribute="centerY" secondItem="xxt-c9-qqD" secondAttribute="centerY" id="eEw-xX-dre"/>
+                            <constraint firstAttribute="centerX" secondItem="xxt-c9-qqD" secondAttribute="centerX" id="gxZ-qi-wLz"/>
+                            <constraint firstAttribute="trailing" secondItem="FRC-kO-ZLH" secondAttribute="trailing" constant="40" id="nqX-d8-joe"/>
+                            <constraint firstItem="EP0-OI-X3E" firstAttribute="width" secondItem="FRC-kO-ZLH" secondAttribute="width" id="ocb-8T-gaV"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="EP0-OI-X3E" secondAttribute="bottom" constant="69" id="s2t-Jk-dh2"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="counterLabel" destination="xxt-c9-qqD" id="sTl-9f-Njq"/>
+                        <outlet property="resetButton" destination="FRC-kO-ZLH" id="9O3-6n-vBs"/>
+                        <outlet property="startButton" destination="EP0-OI-X3E" id="lMD-d4-xSe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="-11"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

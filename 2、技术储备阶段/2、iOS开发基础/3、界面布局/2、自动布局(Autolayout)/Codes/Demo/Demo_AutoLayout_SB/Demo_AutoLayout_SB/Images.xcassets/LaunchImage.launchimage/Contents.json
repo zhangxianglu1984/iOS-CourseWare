@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "filename" : "home_bg.jpg"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "subtype" : "retina4",
+      "scale" : "2x",
+      "filename" : "home_bg.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

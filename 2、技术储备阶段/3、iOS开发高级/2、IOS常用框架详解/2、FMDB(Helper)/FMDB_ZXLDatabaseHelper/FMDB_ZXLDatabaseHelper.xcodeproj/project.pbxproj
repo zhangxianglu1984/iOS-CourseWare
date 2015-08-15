@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D843735C1B6C600B0025137C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D843735B1B6C600B0025137C /* main.m */; };
+		D843735F1B6C600B0025137C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D843735E1B6C600B0025137C /* AppDelegate.m */; };
+		D84373651B6C600B0025137C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84373631B6C600B0025137C /* Main.storyboard */; };
+		D84373671B6C600B0025137C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84373661B6C600B0025137C /* Images.xcassets */; };
+		D843736A1B6C600B0025137C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84373681B6C600B0025137C /* LaunchScreen.xib */; };
+		D84373761B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373751B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.m */; };
+		D84373811B6C60B40025137C /* ZXLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373801B6C60B40025137C /* ZXLMainViewController.m */; };
+		D843738F1B6C630B0025137C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373851B6C630B0025137C /* FMDatabase.m */; };
+		D84373901B6C630B0025137C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373871B6C630B0025137C /* FMDatabaseAdditions.m */; };
+		D84373911B6C630B0025137C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373891B6C630B0025137C /* FMDatabasePool.m */; };
+		D84373921B6C630B0025137C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D843738B1B6C630B0025137C /* FMDatabaseQueue.m */; };
+		D84373931B6C630B0025137C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D843738E1B6C630B0025137C /* FMResultSet.m */; };
+		D84373951B6C63210025137C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D84373941B6C63210025137C /* libsqlite3.dylib */; };
+		D84373A41B6C63560025137C /* NSObject+ZXLDatabaseExecutive.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373981B6C63560025137C /* NSObject+ZXLDatabaseExecutive.m */; };
+		D84373A51B6C63560025137C /* NSObject+ZXLDatabaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D843739A1B6C63560025137C /* NSObject+ZXLDatabaseModel.m */; };
+		D84373A61B6C63560025137C /* NSObject+ZXLDatabaseORMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = D843739C1B6C63560025137C /* NSObject+ZXLDatabaseORMapping.m */; };
+		D84373A71B6C63560025137C /* ZXLSQLiteDatabaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D843739E1B6C63560025137C /* ZXLSQLiteDatabaseConfig.m */; };
+		D84373A81B6C63560025137C /* ZXLSQLiteDatabaseConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373A01B6C63560025137C /* ZXLSQLiteDatabaseConstant.m */; };
+		D84373A91B6C63560025137C /* ZXLSQLiteDatabaseInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373A31B6C63560025137C /* ZXLSQLiteDatabaseInstance.m */; };
+		D84373B01B6C6B7B0025137C /* ZXLStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373AF1B6C6B7B0025137C /* ZXLStudentModel.m */; };
+		D84373B31B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D84373B21B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D84373701B6C600C0025137C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D843734E1B6C600B0025137C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84373551B6C600B0025137C;
+			remoteInfo = FMDB_ZXLDatabaseHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D84373561B6C600B0025137C /* FMDB_ZXLDatabaseHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDB_ZXLDatabaseHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D843735A1B6C600B0025137C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D843735B1B6C600B0025137C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D843735D1B6C600B0025137C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D843735E1B6C600B0025137C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D84373641B6C600B0025137C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D84373661B6C600B0025137C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D84373691B6C600B0025137C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D843736F1B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDB_ZXLDatabaseHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84373741B6C600C0025137C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84373751B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDB_ZXLDatabaseHelperTests.m; sourceTree = "<group>"; };
+		D843737F1B6C60B40025137C /* ZXLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLMainViewController.h; sourceTree = "<group>"; };
+		D84373801B6C60B40025137C /* ZXLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLMainViewController.m; sourceTree = "<group>"; };
+		D84373841B6C630B0025137C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D84373851B6C630B0025137C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D84373861B6C630B0025137C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D84373871B6C630B0025137C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D84373881B6C630B0025137C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D84373891B6C630B0025137C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D843738A1B6C630B0025137C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D843738B1B6C630B0025137C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D843738C1B6C630B0025137C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D843738D1B6C630B0025137C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D843738E1B6C630B0025137C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D84373941B6C63210025137C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D84373971B6C63560025137C /* NSObject+ZXLDatabaseExecutive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXLDatabaseExecutive.h"; sourceTree = "<group>"; };
+		D84373981B6C63560025137C /* NSObject+ZXLDatabaseExecutive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXLDatabaseExecutive.m"; sourceTree = "<group>"; };
+		D84373991B6C63560025137C /* NSObject+ZXLDatabaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXLDatabaseModel.h"; sourceTree = "<group>"; };
+		D843739A1B6C63560025137C /* NSObject+ZXLDatabaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXLDatabaseModel.m"; sourceTree = "<group>"; };
+		D843739B1B6C63560025137C /* NSObject+ZXLDatabaseORMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXLDatabaseORMapping.h"; sourceTree = "<group>"; };
+		D843739C1B6C63560025137C /* NSObject+ZXLDatabaseORMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXLDatabaseORMapping.m"; sourceTree = "<group>"; };
+		D843739D1B6C63560025137C /* ZXLSQLiteDatabaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSQLiteDatabaseConfig.h; sourceTree = "<group>"; };
+		D843739E1B6C63560025137C /* ZXLSQLiteDatabaseConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSQLiteDatabaseConfig.m; sourceTree = "<group>"; };
+		D843739F1B6C63560025137C /* ZXLSQLiteDatabaseConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSQLiteDatabaseConstant.h; sourceTree = "<group>"; };
+		D84373A01B6C63560025137C /* ZXLSQLiteDatabaseConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSQLiteDatabaseConstant.m; sourceTree = "<group>"; };
+		D84373A11B6C63560025137C /* ZXLSQLiteDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSQLiteDatabaseHelper.h; sourceTree = "<group>"; };
+		D84373A21B6C63560025137C /* ZXLSQLiteDatabaseInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSQLiteDatabaseInstance.h; sourceTree = "<group>"; };
+		D84373A31B6C63560025137C /* ZXLSQLiteDatabaseInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSQLiteDatabaseInstance.m; sourceTree = "<group>"; };
+		D84373AA1B6C63DE0025137C /* FMDB_ZXLDatabaseHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDB_ZXLDatabaseHelper-Prefix.pch"; sourceTree = "<group>"; };
+		D84373AE1B6C6B7B0025137C /* ZXLStudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLStudentModel.h; sourceTree = "<group>"; };
+		D84373AF1B6C6B7B0025137C /* ZXLStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLStudentModel.m; sourceTree = "<group>"; };
+		D84373B11B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXLDatabaseModelExecuteDelegate.h"; sourceTree = "<group>"; };
+		D84373B21B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXLDatabaseModelExecuteDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D84373531B6C600B0025137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84373951B6C63210025137C /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843736C1B6C600C0025137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D843734D1B6C600B0025137C = {
+			isa = PBXGroup;
+			children = (
+				D84373581B6C600B0025137C /* FMDB_ZXLDatabaseHelper */,
+				D84373721B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests */,
+				D84373571B6C600B0025137C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D84373571B6C600B0025137C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84373561B6C600B0025137C /* FMDB_ZXLDatabaseHelper.app */,
+				D843736F1B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D84373581B6C600B0025137C /* FMDB_ZXLDatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D843737F1B6C60B40025137C /* ZXLMainViewController.h */,
+				D84373801B6C60B40025137C /* ZXLMainViewController.m */,
+				D84373AE1B6C6B7B0025137C /* ZXLStudentModel.h */,
+				D84373AF1B6C6B7B0025137C /* ZXLStudentModel.m */,
+				D843735D1B6C600B0025137C /* AppDelegate.h */,
+				D843735E1B6C600B0025137C /* AppDelegate.m */,
+				D84373631B6C600B0025137C /* Main.storyboard */,
+				D84373661B6C600B0025137C /* Images.xcassets */,
+				D84373681B6C600B0025137C /* LaunchScreen.xib */,
+				D84373821B6C630B0025137C /* Frameworks */,
+				D84373591B6C600B0025137C /* Supporting Files */,
+			);
+			path = FMDB_ZXLDatabaseHelper;
+			sourceTree = "<group>";
+		};
+		D84373591B6C600B0025137C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D843735A1B6C600B0025137C /* Info.plist */,
+				D843735B1B6C600B0025137C /* main.m */,
+				D84373AA1B6C63DE0025137C /* FMDB_ZXLDatabaseHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D84373721B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D84373751B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.m */,
+				D84373731B6C600C0025137C /* Supporting Files */,
+			);
+			path = FMDB_ZXLDatabaseHelperTests;
+			sourceTree = "<group>";
+		};
+		D84373731B6C600C0025137C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D84373741B6C600C0025137C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D84373821B6C630B0025137C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84373941B6C63210025137C /* libsqlite3.dylib */,
+				D84373831B6C630B0025137C /* fmdb */,
+				D84373961B6C63560025137C /* ZXLSQLiteDatabaseHelper */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		D84373831B6C630B0025137C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				D84373841B6C630B0025137C /* FMDatabase.h */,
+				D84373851B6C630B0025137C /* FMDatabase.m */,
+				D84373861B6C630B0025137C /* FMDatabaseAdditions.h */,
+				D84373871B6C630B0025137C /* FMDatabaseAdditions.m */,
+				D84373881B6C630B0025137C /* FMDatabasePool.h */,
+				D84373891B6C630B0025137C /* FMDatabasePool.m */,
+				D843738A1B6C630B0025137C /* FMDatabaseQueue.h */,
+				D843738B1B6C630B0025137C /* FMDatabaseQueue.m */,
+				D843738C1B6C630B0025137C /* FMDB.h */,
+				D843738D1B6C630B0025137C /* FMResultSet.h */,
+				D843738E1B6C630B0025137C /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		D84373961B6C63560025137C /* ZXLSQLiteDatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D84373971B6C63560025137C /* NSObject+ZXLDatabaseExecutive.h */,
+				D84373981B6C63560025137C /* NSObject+ZXLDatabaseExecutive.m */,
+				D84373991B6C63560025137C /* NSObject+ZXLDatabaseModel.h */,
+				D843739A1B6C63560025137C /* NSObject+ZXLDatabaseModel.m */,
+				D843739B1B6C63560025137C /* NSObject+ZXLDatabaseORMapping.h */,
+				D843739C1B6C63560025137C /* NSObject+ZXLDatabaseORMapping.m */,
+				D84373B11B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.h */,
+				D84373B21B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.m */,
+				D843739D1B6C63560025137C /* ZXLSQLiteDatabaseConfig.h */,
+				D843739E1B6C63560025137C /* ZXLSQLiteDatabaseConfig.m */,
+				D843739F1B6C63560025137C /* ZXLSQLiteDatabaseConstant.h */,
+				D84373A01B6C63560025137C /* ZXLSQLiteDatabaseConstant.m */,
+				D84373A11B6C63560025137C /* ZXLSQLiteDatabaseHelper.h */,
+				D84373A21B6C63560025137C /* ZXLSQLiteDatabaseInstance.h */,
+				D84373A31B6C63560025137C /* ZXLSQLiteDatabaseInstance.m */,
+			);
+			path = ZXLSQLiteDatabaseHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D84373551B6C600B0025137C /* FMDB_ZXLDatabaseHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84373791B6C600C0025137C /* Build configuration list for PBXNativeTarget "FMDB_ZXLDatabaseHelper" */;
+			buildPhases = (
+				D84373521B6C600B0025137C /* Sources */,
+				D84373531B6C600B0025137C /* Frameworks */,
+				D84373541B6C600B0025137C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB_ZXLDatabaseHelper;
+			productName = FMDB_ZXLDatabaseHelper;
+			productReference = D84373561B6C600B0025137C /* FMDB_ZXLDatabaseHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D843736E1B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D843737C1B6C600C0025137C /* Build configuration list for PBXNativeTarget "FMDB_ZXLDatabaseHelperTests" */;
+			buildPhases = (
+				D843736B1B6C600C0025137C /* Sources */,
+				D843736C1B6C600C0025137C /* Frameworks */,
+				D843736D1B6C600C0025137C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84373711B6C600C0025137C /* PBXTargetDependency */,
+			);
+			name = FMDB_ZXLDatabaseHelperTests;
+			productName = FMDB_ZXLDatabaseHelperTests;
+			productReference = D843736F1B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D843734E1B6C600B0025137C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "zhang xianglu";
+				TargetAttributes = {
+					D84373551B6C600B0025137C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D843736E1B6C600C0025137C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D84373551B6C600B0025137C;
+					};
+				};
+			};
+			buildConfigurationList = D84373511B6C600B0025137C /* Build configuration list for PBXProject "FMDB_ZXLDatabaseHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D843734D1B6C600B0025137C;
+			productRefGroup = D84373571B6C600B0025137C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D84373551B6C600B0025137C /* FMDB_ZXLDatabaseHelper */,
+				D843736E1B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D84373541B6C600B0025137C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84373651B6C600B0025137C /* Main.storyboard in Resources */,
+				D843736A1B6C600B0025137C /* LaunchScreen.xib in Resources */,
+				D84373671B6C600B0025137C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843736D1B6C600C0025137C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D84373521B6C600B0025137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D843735F1B6C600B0025137C /* AppDelegate.m in Sources */,
+				D84373A51B6C63560025137C /* NSObject+ZXLDatabaseModel.m in Sources */,
+				D84373A91B6C63560025137C /* ZXLSQLiteDatabaseInstance.m in Sources */,
+				D84373911B6C630B0025137C /* FMDatabasePool.m in Sources */,
+				D84373A71B6C63560025137C /* ZXLSQLiteDatabaseConfig.m in Sources */,
+				D84373811B6C60B40025137C /* ZXLMainViewController.m in Sources */,
+				D84373921B6C630B0025137C /* FMDatabaseQueue.m in Sources */,
+				D84373A41B6C63560025137C /* NSObject+ZXLDatabaseExecutive.m in Sources */,
+				D84373A81B6C63560025137C /* ZXLSQLiteDatabaseConstant.m in Sources */,
+				D84373A61B6C63560025137C /* NSObject+ZXLDatabaseORMapping.m in Sources */,
+				D84373B31B6C72EE0025137C /* NSObject+ZXLDatabaseModelExecuteDelegate.m in Sources */,
+				D843735C1B6C600B0025137C /* main.m in Sources */,
+				D843738F1B6C630B0025137C /* FMDatabase.m in Sources */,
+				D84373931B6C630B0025137C /* FMResultSet.m in Sources */,
+				D84373B01B6C6B7B0025137C /* ZXLStudentModel.m in Sources */,
+				D84373901B6C630B0025137C /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843736B1B6C600C0025137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84373761B6C600C0025137C /* FMDB_ZXLDatabaseHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D84373711B6C600C0025137C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84373551B6C600B0025137C /* FMDB_ZXLDatabaseHelper */;
+			targetProxy = D84373701B6C600C0025137C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D84373631B6C600B0025137C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84373641B6C600B0025137C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D84373681B6C600B0025137C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84373691B6C600B0025137C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D84373771B6C600C0025137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D84373781B6C600C0025137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D843737A1B6C600C0025137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/FMDB_ZXLDatabaseHelper/FMDB_ZXLDatabaseHelper-Prefix.pch";
+				INFOPLIST_FILE = FMDB_ZXLDatabaseHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D843737B1B6C600C0025137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/FMDB_ZXLDatabaseHelper/FMDB_ZXLDatabaseHelper-Prefix.pch";
+				INFOPLIST_FILE = FMDB_ZXLDatabaseHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D843737D1B6C600C0025137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMDB_ZXLDatabaseHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB_ZXLDatabaseHelper.app/FMDB_ZXLDatabaseHelper";
+			};
+			name = Debug;
+		};
+		D843737E1B6C600C0025137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMDB_ZXLDatabaseHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB_ZXLDatabaseHelper.app/FMDB_ZXLDatabaseHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D84373511B6C600B0025137C /* Build configuration list for PBXProject "FMDB_ZXLDatabaseHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84373771B6C600C0025137C /* Debug */,
+				D84373781B6C600C0025137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84373791B6C600C0025137C /* Build configuration list for PBXNativeTarget "FMDB_ZXLDatabaseHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843737A1B6C600C0025137C /* Debug */,
+				D843737B1B6C600C0025137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D843737C1B6C600C0025137C /* Build configuration list for PBXNativeTarget "FMDB_ZXLDatabaseHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843737D1B6C600C0025137C /* Debug */,
+				D843737E1B6C600C0025137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D843734E1B6C600B0025137C /* Project object */;
+}

@@ -46,19 +46,22 @@
  *  @param locations locations 用户的位置信息
  */
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-	NSLog(@"locations数组的元素个数: %i",locations.count);
 	
 	CLLocation *location = [locations lastObject];
 	NSLog(@"%f,%f,speed = %f",location.coordinate.latitude,location.coordinate.longitude,location.speed);
 	
+	CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+	[geocoder reverseGeocodeLocation:经纬度 completionHandler:^(NSArray *placemarks, NSError *error) {
+		//placemarks 包含了相关的地址信息
+	}];
 	
-	
-	//停止获取用户位置
-	//[self.locationManager stopUpdatingLocation];
+ 	//[self.locationManager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading {
 	NSLog(@"direction: %f",newHeading.magneticHeading);
+	
+	[manager stopUpdatingHeading];
 }
 
 #pragma mark - Getters And Setters Methods

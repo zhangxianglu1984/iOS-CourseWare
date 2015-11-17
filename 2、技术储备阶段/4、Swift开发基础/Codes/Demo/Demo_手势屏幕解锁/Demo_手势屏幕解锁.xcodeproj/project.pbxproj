@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FD09E211BF4669200F93E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E201BF4669200F93E7E /* Assets.xcassets */; };
+		9FD09E241BF4669200F93E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E221BF4669200F93E7E /* LaunchScreen.storyboard */; };
+		9FD09E4C1BF47D2900F93E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E401BF47D2900F93E7E /* AppDelegate.swift */; };
+		9FD09E4D1BF47D2900F93E7E /* IMCCheckingPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E421BF47D2900F93E7E /* IMCCheckingPasswordViewController.swift */; };
+		9FD09E4E1BF47D2900F93E7E /* IMCCheckingPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E431BF47D2900F93E7E /* IMCCheckingPasswordViewController.xib */; };
+		9FD09E4F1BF47D2900F93E7E /* IMCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E441BF47D2900F93E7E /* IMCMainViewController.swift */; };
+		9FD09E501BF47D2900F93E7E /* IMCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E451BF47D2900F93E7E /* IMCMainViewController.xib */; };
+		9FD09E511BF47D2900F93E7E /* IMCResettingPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E461BF47D2900F93E7E /* IMCResettingPasswordViewController.swift */; };
+		9FD09E521BF47D2900F93E7E /* IMCResettingPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E471BF47D2900F93E7E /* IMCResettingPasswordViewController.xib */; };
+		9FD09E531BF47D2900F93E7E /* IMCSettingPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E481BF47D2900F93E7E /* IMCSettingPasswordViewController.swift */; };
+		9FD09E541BF47D2900F93E7E /* IMCSettingPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD09E491BF47D2900F93E7E /* IMCSettingPasswordViewController.xib */; };
+		9FD09E561BF47D6A00F93E7E /* IMCPasswordPadsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E551BF47D6A00F93E7E /* IMCPasswordPadsPanelView.swift */; };
+		9FD09E581BF58F5200F93E7E /* IMCPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E571BF58F5200F93E7E /* IMCPasswordModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FD09E161BF4669200F93E7E /* Demo_手势屏幕解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo_手势屏幕解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD09E201BF4669200F93E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FD09E231BF4669200F93E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FD09E251BF4669200F93E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD09E401BF47D2900F93E7E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FD09E421BF47D2900F93E7E /* IMCCheckingPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCCheckingPasswordViewController.swift; sourceTree = "<group>"; };
+		9FD09E431BF47D2900F93E7E /* IMCCheckingPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMCCheckingPasswordViewController.xib; sourceTree = "<group>"; };
+		9FD09E441BF47D2900F93E7E /* IMCMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCMainViewController.swift; sourceTree = "<group>"; };
+		9FD09E451BF47D2900F93E7E /* IMCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMCMainViewController.xib; sourceTree = "<group>"; };
+		9FD09E461BF47D2900F93E7E /* IMCResettingPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCResettingPasswordViewController.swift; sourceTree = "<group>"; };
+		9FD09E471BF47D2900F93E7E /* IMCResettingPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMCResettingPasswordViewController.xib; sourceTree = "<group>"; };
+		9FD09E481BF47D2900F93E7E /* IMCSettingPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCSettingPasswordViewController.swift; sourceTree = "<group>"; };
+		9FD09E491BF47D2900F93E7E /* IMCSettingPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMCSettingPasswordViewController.xib; sourceTree = "<group>"; };
+		9FD09E551BF47D6A00F93E7E /* IMCPasswordPadsPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCPasswordPadsPanelView.swift; sourceTree = "<group>"; };
+		9FD09E571BF58F5200F93E7E /* IMCPasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCPasswordModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD09E131BF4669200F93E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD09E0D1BF4669200F93E7E = {
+			isa = PBXGroup;
+			children = (
+				9FD09E181BF4669200F93E7E /* Demo_手势屏幕解锁 */,
+				9FD09E171BF4669200F93E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD09E171BF4669200F93E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E161BF4669200F93E7E /* Demo_手势屏幕解锁.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD09E181BF4669200F93E7E /* Demo_手势屏幕解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E3F1BF47D2900F93E7E /* Class */,
+				9FD09E201BF4669200F93E7E /* Assets.xcassets */,
+				9FD09E221BF4669200F93E7E /* LaunchScreen.storyboard */,
+				9FD09E251BF4669200F93E7E /* Info.plist */,
+			);
+			path = "Demo_手势屏幕解锁";
+			sourceTree = "<group>";
+		};
+		9FD09E3F1BF47D2900F93E7E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E401BF47D2900F93E7E /* AppDelegate.swift */,
+				9FD09E411BF47D2900F93E7E /* Controller */,
+				9FD09E4A1BF47D2900F93E7E /* Model */,
+				9FD09E4B1BF47D2900F93E7E /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9FD09E411BF47D2900F93E7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E421BF47D2900F93E7E /* IMCCheckingPasswordViewController.swift */,
+				9FD09E431BF47D2900F93E7E /* IMCCheckingPasswordViewController.xib */,
+				9FD09E441BF47D2900F93E7E /* IMCMainViewController.swift */,
+				9FD09E451BF47D2900F93E7E /* IMCMainViewController.xib */,
+				9FD09E461BF47D2900F93E7E /* IMCResettingPasswordViewController.swift */,
+				9FD09E471BF47D2900F93E7E /* IMCResettingPasswordViewController.xib */,
+				9FD09E481BF47D2900F93E7E /* IMCSettingPasswordViewController.swift */,
+				9FD09E491BF47D2900F93E7E /* IMCSettingPasswordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FD09E4A1BF47D2900F93E7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E571BF58F5200F93E7E /* IMCPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FD09E4B1BF47D2900F93E7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E551BF47D6A00F93E7E /* IMCPasswordPadsPanelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD09E151BF4669200F93E7E /* Demo_手势屏幕解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD09E281BF4669200F93E7E /* Build configuration list for PBXNativeTarget "Demo_手势屏幕解锁" */;
+			buildPhases = (
+				9FD09E121BF4669200F93E7E /* Sources */,
+				9FD09E131BF4669200F93E7E /* Frameworks */,
+				9FD09E141BF4669200F93E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo_手势屏幕解锁";
+			productName = "Demo_手势屏幕解锁";
+			productReference = 9FD09E161BF4669200F93E7E /* Demo_手势屏幕解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD09E0E1BF4669200F93E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IMC;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiangluzhang;
+				TargetAttributes = {
+					9FD09E151BF4669200F93E7E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FD09E111BF4669200F93E7E /* Build configuration list for PBXProject "Demo_手势屏幕解锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD09E0D1BF4669200F93E7E;
+			productRefGroup = 9FD09E171BF4669200F93E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD09E151BF4669200F93E7E /* Demo_手势屏幕解锁 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD09E141BF4669200F93E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD09E241BF4669200F93E7E /* LaunchScreen.storyboard in Resources */,
+				9FD09E211BF4669200F93E7E /* Assets.xcassets in Resources */,
+				9FD09E4E1BF47D2900F93E7E /* IMCCheckingPasswordViewController.xib in Resources */,
+				9FD09E501BF47D2900F93E7E /* IMCMainViewController.xib in Resources */,
+				9FD09E541BF47D2900F93E7E /* IMCSettingPasswordViewController.xib in Resources */,
+				9FD09E521BF47D2900F93E7E /* IMCResettingPasswordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD09E121BF4669200F93E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD09E561BF47D6A00F93E7E /* IMCPasswordPadsPanelView.swift in Sources */,
+				9FD09E531BF47D2900F93E7E /* IMCSettingPasswordViewController.swift in Sources */,
+				9FD09E4F1BF47D2900F93E7E /* IMCMainViewController.swift in Sources */,
+				9FD09E4C1BF47D2900F93E7E /* AppDelegate.swift in Sources */,
+				9FD09E4D1BF47D2900F93E7E /* IMCCheckingPasswordViewController.swift in Sources */,
+				9FD09E581BF58F5200F93E7E /* IMCPasswordModel.swift in Sources */,
+				9FD09E511BF47D2900F93E7E /* IMCResettingPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FD09E221BF4669200F93E7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD09E231BF4669200F93E7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD09E261BF4669200F93E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FD09E271BF4669200F93E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD09E291BF4669200F93E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo_手势屏幕解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.imcore.Demo-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD09E2A1BF4669200F93E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo_手势屏幕解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.imcore.Demo-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD09E111BF4669200F93E7E /* Build configuration list for PBXProject "Demo_手势屏幕解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD09E261BF4669200F93E7E /* Debug */,
+				9FD09E271BF4669200F93E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD09E281BF4669200F93E7E /* Build configuration list for PBXNativeTarget "Demo_手势屏幕解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD09E291BF4669200F93E7E /* Debug */,
+				9FD09E2A1BF4669200F93E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD09E0E1BF4669200F93E7E /* Project object */;
+}

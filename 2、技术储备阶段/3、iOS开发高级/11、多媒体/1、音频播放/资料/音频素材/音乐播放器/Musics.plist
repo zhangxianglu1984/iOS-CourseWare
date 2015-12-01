@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>简单爱</string>
+		<key>filename</key>
+		<string>简单爱.mp3</string>
+		<key>singer</key>
+		<string>周杰伦</string>
+		<key>singerIcon</key>
+		<string>jay_icon.png</string>
+		<key>icon</key>
+		<string>jay.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>瓦解</string>
+		<key>filename</key>
+		<string>瓦解.mp3</string>
+		<key>singer</key>
+		<string>南拳妈妈</string>
+		<key>singerIcon</key>
+		<string>nanquan_icon.jpg</string>
+		<key>icon</key>
+		<string>nanquan.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>心碎了无痕</string>
+		<key>filename</key>
+		<string>心碎了无痕.mp3</string>
+		<key>singer</key>
+		<string>张学友</string>
+		<key>singerIcon</key>
+		<string>zxy_icon.jpg</string>
+		<key>icon</key>
+		<string>zxy.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>一千年以后</string>
+		<key>filename</key>
+		<string>一千年以后.mp3</string>
+		<key>singer</key>
+		<string>林俊杰</string>
+		<key>singerIcon</key>
+		<string>jj_icon.png</string>
+		<key>icon</key>
+		<string>jj.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>最佳损友</string>
+		<key>filename</key>
+		<string>最佳损友.mp3</string>
+		<key>singer</key>
+		<string>陈奕迅</string>
+		<key>singerIcon</key>
+		<string>eason_icon.jpg</string>
+		<key>icon</key>
+		<string>eason.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -26,22 +26,40 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UIView *yellowView = [UIView new];
+    yellowView.frame = CGRectMake(100, 100, 100, 100);
+    yellowView.backgroundColor = [UIColor yellowColor];
+    //[self.view addSubview:yellowView];
 	
-//	[UIView transitionFromView:_pinkView toView:_blueView duration:1.0f options:UIViewAnimationOptionTransitionCurlUp| UIViewAnimationOptionAllowAnimatedContent completion:^(BOOL finished) {
-//		NSLog(@"sadfasdfa");
-//	}];
+    //这里会自动把toView加入视图树,自动把fromView移除
+	[UIView transitionFromView:_pinkView toView:yellowView duration:1.0f options:UIViewAnimationOptionTransitionFlipFromBottom|UIViewAnimationOptionAllowAnimatedContent completion:^(BOOL finished) {
+		//NSLog(@"sadfasdfa");
+        
+        NSLog(@"_pinkView: %@",_pinkView);
+	}];
+    
+//    [UIView animateWithDuration:1.0f animations:^{
+//        CGPoint greenViewCenter = _greenView.center;
+//        greenViewCenter.x += 200.0;
+//        _greenView.center = greenViewCenter;
+//    }];
+    
+    
 	
-//		[UIView animateWithDuration:2.0f delay:0.0f options:0 animations:^{
+//    [UIView animateWithDuration:2.0f delay:0.0f options:UIViewAnimationOptionCurveEaseIn animations:^{
 //			
-//		
+//        CGPoint blueViewCenter = _blueView.center;
+//        blueViewCenter.y += 300;
+//        _blueView.center = blueViewCenter;
 //			
-//			CGPoint blueViewCenter = _blueView.center;
-//			blueViewCenter.y += 300;
-//			_blueView.center = blueViewCenter;
-//			
-//	//		[UIView animateWithDuration:1.0f delay:1.0f options:0 animations:^{
-//	//			_pinkView.transform = CGAffineTransformMakeTranslation(200, 0);
-//	//		} completion:^(BOOL finished){}];
+//			[UIView animateWithDuration:2.0f delay:0.0f options:UIViewAnimationOptionCurveEaseOut|UIViewAnimationOptionOverrideInheritedCurve animations:^{
+//				_pinkView.transform = CGAffineTransformMakeTranslation(200, 0);
+//			} completion:^(BOOL finished){}];
+//        
+////        CGPoint greenViewCenter = _greenView.center;
+////        greenViewCenter.x += 250.0;
+////        _greenView.center = greenViewCenter;
 //	
 //	
 //		} completion:^(BOOL finished) {
@@ -54,12 +72,12 @@
 	/**
 	 *  子视图动画,父视图有个过渡效果
 	 */
-	[UIView transitionWithView:_blueView duration:1.0 options:0
-	 animations:^{
-		CGPoint greenViewCenter = _greenView.center;
-		greenViewCenter.x += 200;
-		_greenView.center = greenViewCenter;
-	} completion:^(BOOL finished) {}];
+//	[UIView transitionWithView:_blueView duration:1.0 options:0
+//	 animations:^{
+//		CGPoint greenViewCenter = _greenView.center;
+//		greenViewCenter.x += 200;
+//		_greenView.center = greenViewCenter;
+//	} completion:^(BOOL finished) {}];
 
 //	[UIView animateWithDuration:2.0f delay:0.0f options:0 animations:^{
 //		

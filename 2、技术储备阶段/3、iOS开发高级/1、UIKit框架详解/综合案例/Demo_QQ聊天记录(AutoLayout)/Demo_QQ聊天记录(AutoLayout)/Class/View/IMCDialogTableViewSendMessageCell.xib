@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IMCDialogTableViewSendMessageCell" rowHeight="216" id="KGk-i7-Jjw" customClass="IMCDialogTableViewSendMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="216"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="429" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxG-tj-AIn">
+                        <rect key="frame" x="0.0" y="0.0" width="429" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="IeA-qj-W55"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IeA-qj-W55"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Jobs" translatesAutoresizingMaskIntoConstraints="NO" id="pqa-gu-ClB">
+                        <rect key="frame" x="369" y="30" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="8Hb-mS-D9A"/>
+                            <constraint firstAttribute="height" constant="50" id="Sbe-cc-74F"/>
+                        </constraints>
+                    </imageView>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chat_send_nor" highlightedImage="chat_send_press_pic" translatesAutoresizingMaskIntoConstraints="NO" id="qMz-ia-Nel">
+                        <rect key="frame" x="313" y="30" width="46" height="50"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pqa-gu-ClB" secondAttribute="bottom" constant="10" id="41C-KZ-EW7"/>
+                    <constraint firstItem="pqa-gu-ClB" firstAttribute="leading" secondItem="qMz-ia-Nel" secondAttribute="trailing" constant="10" id="8J2-Ne-0g3"/>
+                    <constraint firstItem="qMz-ia-Nel" firstAttribute="top" secondItem="nxG-tj-AIn" secondAttribute="bottom" constant="10" id="ETU-3Z-kz5"/>
+                    <constraint firstAttribute="trailing" secondItem="pqa-gu-ClB" secondAttribute="trailing" constant="10" id="S8C-AS-A3D"/>
+                    <constraint firstItem="pqa-gu-ClB" firstAttribute="top" secondItem="nxG-tj-AIn" secondAttribute="bottom" constant="10" id="U6d-AY-AXY"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qMz-ia-Nel" secondAttribute="bottom" constant="10" id="Vyk-W3-wHX"/>
+                    <constraint firstAttribute="bottom" secondItem="nxG-tj-AIn" secondAttribute="bottom" constant="124" id="bIz-fS-rx9"/>
+                    <constraint firstItem="nxG-tj-AIn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="r1u-GZ-nXQ"/>
+                    <constraint firstItem="nxG-tj-AIn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rLh-bB-lnL"/>
+                    <constraint firstItem="pqa-gu-ClB" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="vZn-bG-0sy"/>
+                    <constraint firstAttribute="trailing" secondItem="nxG-tj-AIn" secondAttribute="trailing" id="xux-8g-uh2"/>
+                    <constraint firstItem="qMz-ia-Nel" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="ytO-kB-kc5"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="bIz-fS-rx9"/>
+                        <exclude reference="vZn-bG-0sy"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="textImageView" destination="qMz-ia-Nel" id="iuS-sW-S3Q"/>
+                <outlet property="timeLabel" destination="nxG-tj-AIn" id="Ond-SX-IhA"/>
+            </connections>
+            <point key="canvasLocation" x="260.5" y="235"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Jobs" width="100" height="100"/>
+        <image name="chat_send_nor" width="46" height="50"/>
+        <image name="chat_send_press_pic" width="46" height="50"/>
+    </resources>
+</document>

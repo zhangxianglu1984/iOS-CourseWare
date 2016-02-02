@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IMCMainViewController">
+            <connections>
+                <outlet property="contactTableView" destination="KzV-DK-ghh" id="tXL-O6-w5B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2m-ro-afg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="联系人" id="keu-N3-ouV"/>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KzV-DK-ghh">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KzV-DK-ghh" secondAttribute="bottom" id="A0a-1i-IgK"/>
+                <constraint firstItem="R2m-ro-afg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AGj-W8-E8E"/>
+                <constraint firstItem="KzV-DK-ghh" firstAttribute="top" secondItem="R2m-ro-afg" secondAttribute="bottom" id="FBR-Wj-c6H"/>
+                <constraint firstItem="R2m-ro-afg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bs5-O5-YRC"/>
+                <constraint firstItem="KzV-DK-ghh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="n6y-6Q-CBQ"/>
+                <constraint firstAttribute="trailing" secondItem="R2m-ro-afg" secondAttribute="trailing" id="pGb-gg-Zyh"/>
+                <constraint firstAttribute="trailing" secondItem="KzV-DK-ghh" secondAttribute="trailing" id="zcb-HM-C6P"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="182" y="52"/>
+        </view>
+    </objects>
+</document>

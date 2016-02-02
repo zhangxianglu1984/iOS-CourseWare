@@ -12,6 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UIView *greenView;
 
+@property(nonatomic,weak) CALayer *redLayer;
+
 @end
 
 @implementation IMCMainViewController
@@ -30,45 +32,56 @@
 	CALayer *redLayer = [CALayer layer];
 	redLayer.backgroundColor = [UIColor redColor].CGColor;
 	
-	//redLayer.frame = CGRectMake(0, 0, 100, 100);
+//	redLayer.frame = CGRectMake(0, 0, 100, 100);
 	
 	redLayer.bounds = (CGRect){0, 0, 100, 100};
 	
-	redLayer.anchorPoint = (CGPoint){0,0.5};
+	redLayer.anchorPoint = (CGPoint){0.0,0.0};
 	
 	redLayer.position = (CGPoint){0,0};
 	
-	
-	
 	[self.view.layer addSublayer:redLayer];
+    
+    self.redLayer = redLayer;
 	
-	_greenView.layer.delegate = self;
+	//_greenView.layer.delegate = self;
 	
 	//重新绘制图层
-	[_greenView.layer setNeedsDisplay];
+	//[_greenView.layer setNeedsDisplay];
 	
 	
 	//UI -> CG .cgXXX UIImage .cgImage
-	//greenViewLayer.backgroundColor = [UIColor blueColor].CGColor;
+	//_greenViewLayer.backgroundColor = [UIColor blueColor].CGColor;
 	
-	//greenViewLayer.contents = (id)[UIImage imageNamed:@"icon_fox"].CGImage;
-	
-	//加一个边框
-	//greenViewLayer.borderColor = [UIColor grayColor].CGColor;
-	//greenViewLayer.borderWidth = 8;
+//	greenViewLayer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"icon_fox"].CGImage);
+//	
+//	//加一个边框
+//	greenViewLayer.borderColor = [UIColor grayColor].CGColor;
+//	greenViewLayer.borderWidth = 8;
 	
 	//加圆角
-	//greenViewLayer.cornerRadius = 10;
-	
+	//greenViewLayer.cornerRadius = 50.0;
+	//让子图层与父图层同步
 	//greenViewLayer.masksToBounds = YES;
 	
 	//阴影
-	//greenViewLayer.shadowColor = [UIColor blackColor].CGColor;
-	//greenViewLayer.shadowOffset = CGSizeMake(-10, -10);
-	//greenViewLayer.shadowOpacity = 1;
+//	greenViewLayer.shadowColor = [UIColor redColor].CGColor;
+//	greenViewLayer.shadowOffset = CGSizeMake(10, -10);
+//	greenViewLayer.shadowOpacity = 0.5;
 	
-	//greenViewLayer.position = CGPointMake(250, 300);
+	//greenViewLayer.position = CGPointMake(250, 500);
 	
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    //_redLayer.backgroundColor = [UIColor blueColor].CGColor;
+    
+//    _redLayer.position = CGPointMake(120, 368);
+//    
+//    _redLayer.bounds = CGRectMake(0.0, 0.0, 300, 300);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,10 +89,10 @@
 	
 }
 
-- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
-	CGContextAddEllipseInRect(ctx, layer.bounds);
-	CGContextFillPath(ctx);
-}
+//- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
+//	CGContextAddEllipseInRect(ctx, layer.bounds);
+//	CGContextFillPath(ctx);
+//}
 
 /*
 #pragma mark - Navigation

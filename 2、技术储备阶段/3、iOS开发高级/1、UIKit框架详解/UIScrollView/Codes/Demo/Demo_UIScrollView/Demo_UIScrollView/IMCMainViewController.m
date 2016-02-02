@@ -95,7 +95,7 @@
 	scrollView.frame = CGRectMake(0, 0, screenWidth, screenHeight);
 	
 	/** 设置内容区域 **/
-	scrollView.contentSize = CGSizeMake(screenWidth, screenHeight);
+	scrollView.contentSize = CGSizeMake(screenWidth + 100, screenHeight + 100);
 	
 	//scrollView.scrollsToTop = YES;
 	
@@ -108,12 +108,12 @@
 	[scrollView addSubview:imageView];
 	
 	/** 设置缩放的最大比例 **/
-	scrollView.maximumZoomScale = 10.0;
+	//scrollView.maximumZoomScale = 10.0;
 	
 	/** 设置缩放的最小比例 **/
-	scrollView.minimumZoomScale = 0.5;
+	//scrollView.minimumZoomScale = 0.5;
 	
-	scrollView.bouncesZoom = YES;
+	//scrollView.bouncesZoom = YES;
 	
 	/** 设置分页属性 **/
 	//scrollView.pagingEnabled = YES;

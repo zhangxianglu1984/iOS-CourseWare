@@ -96,7 +96,7 @@
 				IMCPlatformModel *platformModel = [[IMCPlatformModel alloc] init];
 			
 				//已经取到了一条记录
-				platformModel.PlatFormID = [NSString stringWithUTF8String:(char *)sqlite3_column_text(stmt, 1)];
+				platformModel.PlatFormID = [NSString stringWithUTF8String:NULL];
 				platformModel.PlatformName = [NSString stringWithUTF8String:(char *)sqlite3_column_text(stmt, 2)];
 				platformModel.WebSite = [NSString stringWithUTF8String:(char *)sqlite3_column_text(stmt, 3)];
 				platformModel.Deal = [NSString stringWithUTF8String:(char *)sqlite3_column_text(stmt, 4)];

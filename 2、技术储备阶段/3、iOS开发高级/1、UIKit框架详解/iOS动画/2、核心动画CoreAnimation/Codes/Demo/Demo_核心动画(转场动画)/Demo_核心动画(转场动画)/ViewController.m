@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -16,12 +17,26 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+ }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
-}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    CATransition *transitionAnimation = [CATransition new];
+    transitionAnimation.duration = 2.0;
+    
+    transitionAnimation.type = @"rippleEffect";
+    
+    //transitionAnimation.subtype = @"fromRight";
+    
 
+    //
+    //    transitionAnimation
+    
+    
+    [_imageView.layer addAnimation:transitionAnimation forKey:nil];
+
+    
+    _imageView.image = [UIImage imageNamed:@"a"];
+}
 @end

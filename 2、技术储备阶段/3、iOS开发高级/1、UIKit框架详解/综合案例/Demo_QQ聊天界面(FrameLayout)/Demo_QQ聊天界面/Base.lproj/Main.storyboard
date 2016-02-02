@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Oex-Pe-LWh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tB-hU-i8F">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <state key="normal" title="开始聊天"/>
+                                <connections>
+                                    <segue destination="VE2-BH-PC6" kind="show" id="gJP-12-BbZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41568627450000001" green="0.84705882349999995" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tK4-IQ-YCg"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="176"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="7Vu-de-mnf">
+            <objects>
+                <viewController id="VE2-BH-PC6" customClass="IMCMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ruq-mN-xyd"/>
+                        <viewControllerLayoutGuide type="bottom" id="NA8-wh-ejk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dcB-RK-L0s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pdb-Ks-C2e" userLabel="底部视图">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_bottom_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-2d-bDQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4Y-eQ-CiZ" userLabel="声音按钮">
+                                        <rect key="frame" x="0.0" y="5" width="34" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Glf-kX-MjG"/>
+                                            <constraint firstAttribute="width" constant="34" id="xiv-v5-ow0"/>
+                                        </constraints>
+                                        <state key="normal" image="chat_bottom_voice_nor"/>
+                                        <state key="highlighted" image="chat_bottom_voice_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-0k-xGz" userLabel="加号按钮">
+                                        <rect key="frame" x="286" y="5" width="34" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="8B9-qB-mDG"/>
+                                            <constraint firstAttribute="height" constant="34" id="f7w-bK-H7q"/>
+                                        </constraints>
+                                        <state key="normal" image="chat_bottom_up_nor"/>
+                                        <state key="highlighted" image="chat_bottom_up_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6e-BW-qBS" userLabel="笑脸按钮">
+                                        <rect key="frame" x="252" y="5" width="34" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="EYh-XH-SRu"/>
+                                            <constraint firstAttribute="width" constant="34" id="edP-zs-BPC"/>
+                                        </constraints>
+                                        <state key="normal" image="chat_bottom_smile_nor"/>
+                                        <state key="highlighted" image="chat_bottom_smile_press"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="chat_bottom_textfield" translatesAutoresizingMaskIntoConstraints="NO" id="QZq-yl-4UX">
+                                        <rect key="frame" x="34" y="7" width="218" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WgS-0k-xGz" firstAttribute="centerY" secondItem="Pdb-Ks-C2e" secondAttribute="centerY" id="50j-td-Gkl"/>
+                                    <constraint firstAttribute="trailing" secondItem="WgS-0k-xGz" secondAttribute="trailing" id="5da-8X-rRi"/>
+                                    <constraint firstItem="QZq-yl-4UX" firstAttribute="leading" secondItem="h4Y-eQ-CiZ" secondAttribute="trailing" id="A9y-Tn-bpc"/>
+                                    <constraint firstItem="sbe-2d-bDQ" firstAttribute="leading" secondItem="Pdb-Ks-C2e" secondAttribute="leading" id="Irw-eQ-HrD"/>
+                                    <constraint firstItem="sbe-2d-bDQ" firstAttribute="top" secondItem="Pdb-Ks-C2e" secondAttribute="top" id="KqM-Rc-3sS"/>
+                                    <constraint firstItem="WgS-0k-xGz" firstAttribute="leading" secondItem="r6e-BW-qBS" secondAttribute="trailing" id="SaN-4b-OWU"/>
+                                    <constraint firstItem="r6e-BW-qBS" firstAttribute="leading" secondItem="QZq-yl-4UX" secondAttribute="trailing" id="SgV-xS-ZAi"/>
+                                    <constraint firstItem="h4Y-eQ-CiZ" firstAttribute="leading" secondItem="Pdb-Ks-C2e" secondAttribute="leading" id="T7D-lW-Y1J"/>
+                                    <constraint firstItem="h4Y-eQ-CiZ" firstAttribute="centerY" secondItem="Pdb-Ks-C2e" secondAttribute="centerY" id="aqN-ba-dIR"/>
+                                    <constraint firstAttribute="trailing" secondItem="sbe-2d-bDQ" secondAttribute="trailing" id="mk7-0N-1LH"/>
+                                    <constraint firstItem="QZq-yl-4UX" firstAttribute="centerY" secondItem="Pdb-Ks-C2e" secondAttribute="centerY" id="p4x-fD-vuo"/>
+                                    <constraint firstItem="r6e-BW-qBS" firstAttribute="centerY" secondItem="Pdb-Ks-C2e" secondAttribute="centerY" id="rwz-S2-mjK"/>
+                                    <constraint firstAttribute="bottom" secondItem="sbe-2d-bDQ" secondAttribute="bottom" id="vU4-3l-J5J"/>
+                                    <constraint firstAttribute="height" constant="44" id="xqo-V3-MAc"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sAv-IR-eh0">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sAv-IR-eh0" firstAttribute="top" secondItem="Ruq-mN-xyd" secondAttribute="bottom" id="64h-TF-vbp"/>
+                            <constraint firstAttribute="trailing" secondItem="sAv-IR-eh0" secondAttribute="trailing" id="KA3-64-a46"/>
+                            <constraint firstItem="Pdb-Ks-C2e" firstAttribute="top" secondItem="sAv-IR-eh0" secondAttribute="bottom" id="KTb-xN-zVM"/>
+                            <constraint firstAttribute="trailing" secondItem="Pdb-Ks-C2e" secondAttribute="trailing" id="OzV-0W-ujf"/>
+                            <constraint firstItem="NA8-wh-ejk" firstAttribute="top" secondItem="Pdb-Ks-C2e" secondAttribute="bottom" id="XqK-Ua-FF9"/>
+                            <constraint firstItem="sAv-IR-eh0" firstAttribute="leading" secondItem="dcB-RK-L0s" secondAttribute="leading" id="mJ5-41-HDx"/>
+                            <constraint firstItem="Pdb-Ks-C2e" firstAttribute="leading" secondItem="dcB-RK-L0s" secondAttribute="leading" id="t20-bJ-wFc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dm0-R3-ETb"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="dialogTableView" destination="sAv-IR-eh0" id="i3f-wb-bp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bdn-Z5-FwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519" y="176"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YGK-uv-Fs3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oex-Pe-LWh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Syg-Jg-s5X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WFs-FZ-Fkt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5mG-Lz-rim" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat_bottom_bg" width="10" height="42"/>
+        <image name="chat_bottom_smile_nor" width="34" height="34"/>
+        <image name="chat_bottom_smile_press" width="34" height="34"/>
+        <image name="chat_bottom_textfield" width="166" height="31"/>
+        <image name="chat_bottom_up_nor" width="34" height="34"/>
+        <image name="chat_bottom_up_press" width="34" height="34"/>
+        <image name="chat_bottom_voice_nor" width="34" height="34"/>
+        <image name="chat_bottom_voice_press" width="34" height="34"/>
+    </resources>
+</document>

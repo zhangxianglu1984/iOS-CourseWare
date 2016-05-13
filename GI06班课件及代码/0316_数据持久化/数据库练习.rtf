@@ -1,0 +1,173 @@
+{\rtf1\ansi\ansicpg936\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red24\green52\blue255;\red77\green77\blue77;\red19\green160\blue75;
+\red200\green24\blue14;\red113\green21\blue220;\red0\green90\blue124;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10060\viewh11640\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 \'b4\'b4\'bd\'a8\'d2\'bb\'d5\'c5\'b1\'ed \'bd\'d0\'d7\'f6 department\
+\'b1\'ed\'d6\'d0\'d3\'d0\'c1\'bd\'b8\'f6\'d7\'d6\'b6\'ce: id(\'d6\'f7\'bc\'fc,\'d7\'d4\'d4\'f6), \'b2\'bf\'c3\'c5\'c3\'fb\'b3\'c6(\'b7\'c7\'bf\'d5,\'ce\'a8\'d2\'bb)\
+\'cc\'ed\'bc\'d33\'cc\'f5\'d2\'d4\'c9\'cf\'b2\'bb\'cd\'ac\'b5\'c4\'bc\'c7\'c2\'bc\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs42 \cf2 create\cf3  \cf2 table\cf3  \cf2 if\cf3  \cf2 not\cf3  \cf2 exists\cf3  department (id\cf4  integer\cf5  primary key autoincrement\cf3  , name\cf4  text\cf3  \cf2 not\cf3  \cf2 null\cf3  \cf2 unique\cf3 );\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\b \cf2 insert
+\b0 \cf3  
+\b \cf2 into
+\b0 \cf3  department (name) 
+\b \cf2 values
+\b0 \cf3  ('it');\
+
+\b \cf2 insert
+\b0 \cf3  
+\b \cf2 into
+\b0 \cf3  department (name) 
+\b \cf2 values
+\b0 \cf3  ('sales');\
+
+\b \cf2 insert
+\b0 \cf3  
+\b \cf2 into
+\b0 \cf3  department (name) 
+\b \cf2 values
+\b0 \cf3  ('hr');\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\'d4\'d9\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'b1\'ed
+\f1  
+\f0 \'bd\'d0\'d7\'f6
+\f1 emp\
+
+\f0 \'b1\'ed\'d6\'d0\'d3\'d05\'b8\'f6\'d7\'d6\'b6\'ce: id(\'d6\'f7\'bc\'fc,\'d7\'d4\'d4\'f6), \'d0\'d5\'c3\'fb,\'c4\'ea\'c1\'e4,\'b9\'a4\'d7\'ca,\'bd\'b1\'bd\'f0(\'c4\'ea\'c1\'e4,\'b9\'a4\'d7\'ca\'ba\'cd\'bd\'b1\'bd\'f0\'bf\'c9\'d2\'d4\'b7\'d6\'b2\'bc\'b5\'c3\'b9\'e3\'d2\'bb\'d0\'a9).\'b2\'bf\'c3\'c5id\
+\'cc\'ed\'bc\'d310\'cc\'f5\'d2\'d4\'c9\'cf\'b2\'bb\'cd\'ac\'b5\'c4\'bc\'c7\'c2\'bc\
+\
+
+\f1 emp
+\f0 \'b1\'ed\'c0\'ef\'c3\'e6\'b5\'c4\'b2\'bf\'c3\'c5
+\f1 id
+\f0 \'d2\'aa\'ba\'cddepartment\'b1\'ed\'c0\'ef\'c3\'e6\'b5\'c4id\'b6\'d4\'d3\'a6\'c6\'f0\'c0\'b4\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs42 \cf2 create\cf3  \cf2 table\cf3  \cf2 if\cf3  \cf2 not\cf3  \cf2 exists\cf3  emp (id\cf4  integer\cf5  primary key autoincrement\cf3  , name\cf4  text\cf3  , age\cf4  integer\cf3 , salary\cf4  integer\cf3  , bonus\cf4  integer\cf3 , dep_id\cf4  integer\cf3 , \cf2 constraint\cf3  fk_emp_dep_id_department_id \cf2 foreign\cf3  \cf2 key\cf3  (dep_id) \cf2 references\cf3  department(id));
+\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 insert\cf3  \cf2 into\cf3  emp (name, age, salary, bonus, dep_id) \cf2 values\cf3  ('MM_80',64,500,500,2);\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 1.\'b2\'e9\'d1\'af\'c4\'ea\'c1\'e4\'b4\'f3\'d3\'da25\'c7\'d2\'b9\'a4\'d7\'ca\'b5\'cd\'d3\'da5000\'bf\'e9\'b5\'c4\'d4\'b1\'b9\'a4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  * \cf2 from\cf3  emp \cf2 where\cf3  age > 25 \cf2 and\cf3  salary < 5000\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 2.\'b2\'e9\'d1\'af\'bd\'b1\'bd\'f0\'b4\'f3\'d3\'da\'b9\'a4\'d7\'ca\'b5\'c4\'d4\'b1\'b9\'a4\'b5\'c4\'d0\'d5\'c3\'fb\'ba\'cd\'c4\'ea\'c1\'e4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  name,age \cf2 from\cf3  emp \cf2 where\cf3  bonus > salary\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 3.\'b2\'e9\'d1\'af\'bd\'b1\'bd\'f0\'d0\'a1\'d3\'da3000\'bf\'e9\'b5\'c4\'d4\'b1\'b9\'a4\'b5\'c4\'b8\'f6\'ca\'fd\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  \cf6 count\cf3 (*) \cf2 from\cf3  emp \cf2 where\cf3  bonus < 3000\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 4.\'b0\'b4\'d5\'d5\'d4\'b1\'b9\'a4\'b5\'c4\'c4\'ea\'c1\'e4 \'c9\'fd\'d0\'f2\'ba\'cd\'b9\'a4\'d7\'ca\'bd\'b5\'d0\'f2\'c5\'c5\'d0\'f2\
+\cf7 (\'b0\'b4\'d5\'d5\'b5\'da\'d2\'bb\'b8\'f6\'cc\'f5\'bc\'fe\'c5\'c5\'d0\'f2,\'c8\'e7\'b9\'fb\'cf\'e0\'cd\'ac\'d4\'f2\'b0\'b4\'d5\'d5\'b5\'da\'b6\'fe\'b8\'f6\'cc\'f5\'bc\'fe\'c5\'c5\'d0\'f2)\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  * \cf2 from\cf3  emp \cf2 order\cf3  \cf2 by\cf3  age , salary desc\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 5.\'bd\'ab\'b9\'a4\'d7\'ca\'b5\'cd\'d3\'da1000\'bf\'e9\'b5\'c4\'d4\'b1\'b9\'a4\'b5\'c4\'b9\'a4\'d7\'ca\'b8\'c4\'b3\'c94500\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 update\cf3  emp \cf2 set\cf3  salary = 4500 \cf2 where\cf3  salary < 1000
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+6.\'bd\'ab\'bd\'b1\'bd\'f0\'b4\'f3\'d3\'da10000\'cd\'f2\'bf\'e9 \'c7\'d2 \'c4\'ea\'c1\'e4\'d0\'a1\'d3\'da25\'cb\'ea\'b5\'c4  \'b9\'a4\'d7\'ca\'b8\'c4\'b3\'c96000\'bf\'e9\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 update\cf3  emp \cf2 set\cf3  salary = 6000 \cf2 where\cf3  bonus > 10000 \cf2 and\cf3  age < 25\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 7.\'c9\'be\'b3\'fd\'c4\'ea\'c1\'e4\'d0\'a1\'d3\'da18\'bb\'f2\'b4\'f3\'d3\'da50\'b5\'c4\'bc\'c7\'c2\'bc\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 delete\cf3  \cf2 from\cf3  emp \cf2 where\cf3  age > 50 \cf2 or\cf3  age < 18
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+8.\'b2\'e9\'d1\'af\'c4\'b3\'d2\'bb\'b8\'f6\'b2\'bf\'c3\'c5(\'c8\'e7:\'b2\'c6\'ce\'f1\'b2\'bf)\'cb\'f9\'d3\'d0\'c8\'cb\'d4\'b1\'b5\'c4\'d0\'c5\'cf\'a2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  e.id emp_id,e.name,e.age,e.salary,e.bonus, d.id dep_id, d.name dep_name \cf2 from\cf3  emp e,department d\
+\cf2 where\cf3  e.dep_id = d.id\
+\cf2 and\cf3  d.name = 'it'\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 9.\'b2\'e9\'d1\'af\'bd\'b1\'bd\'f0\'d7\'ee\'b8\'df\'b5\'c4\'c8\'cb\'ba\'cd\'d7\'ee\'b5\'cd\'b5\'c4\'c8\'cb\'b5\'c4\'d0\'d5\'c3\'fb\'ba\'cd\'bd\'b1\'bd\'f0\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  name,bonus \cf2 from\cf3  emp \cf2 where\cf3  bonus = (select \cf6 min\cf3 (bonus) \cf2 from\cf3  emp);\
+\
+\cf2 select\cf3  name,bonus \cf2 from\cf3  emp \cf2 where\cf3  bonus = (select \cf6 max\cf3 (bonus) \cf2 from\cf3  emp);\
+\
+\cf2 select\cf3  name,bonus \cf2 from\cf3  emp \
+\cf2 where\cf3  bonus = (select \cf6 max\cf3 (bonus) \cf2 from\cf3  emp) \
+\cf2 or\cf3  bonus = (select \cf6 min\cf3 (bonus) \cf2 from\cf3  emp);\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 10.\'b2\'e9\'d1\'af\'c4\'b3\'d2\'bb\'b8\'f6\'c8\'b7\'b6\'a8\'b2\'bf\'c3\'c5(\'c8\'e7:\'b2\'c6\'ce\'f1\'b2\'bf)\'b5\'c4\'c6\'bd\'be\'f9\'b9\'a4\'d7\'ca\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  \cf6 avg\cf3 (e.salary) \cf2 from\cf3  emp e, department d \cf2 where\cf3  e.dep_id = d.id\
+\cf2 and\cf3  d.name = 'it'\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 11.\'b2\'e9\'d1\'af\'b9\'ab\'cb\'be\'bd\'b1\'bd\'f0\'c7\'b05\'c3\'fb\'b5\'c4\'d4\'b1\'b9\'a4\'d0\'c5\'cf\'a2(\'b0\'fc\'c0\'a8\'b2\'bf\'c3\'c5\'c3\'fb\'b3\'c6)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  * \cf2 from\cf3  emp e, department d \cf2 where\cf3  e.dep_id = d.id \cf2 order\cf3  \cf2 by\cf3  e.bonus \cf2 desc\cf3  \cf2 limit\cf3  5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 12.\'b2\'e9\'d1\'af\'d2\'d4\'d0\'d5\'c3\'fb\'d2\'d4L\'bf\'aa\'cd\'b7\'b5\'c4\'d4\'b1\'b9\'a4\'b5\'c4\'c4\'ea\'c1\'e4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2\fs28 \cf2 select\cf3  * \cf2 from\cf3  emp \cf2 where\cf3  name \cf2 like\cf3  'MM_8%'\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 \
+}

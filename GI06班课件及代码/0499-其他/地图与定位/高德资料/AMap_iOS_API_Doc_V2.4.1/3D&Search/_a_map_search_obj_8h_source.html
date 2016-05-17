@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>高德地图iOS SDK 3D地图&amp;搜索服务参考手册 V2.4.1: AMapSearchObj.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">高德地图iOS SDK 3D地图&amp;搜索服务参考手册 V2.4.1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_a_map_search_obj_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">AMapSearchObj.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_a_map_search_obj_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_a_map_common_obj_8h.html" title="用于定义搜索公共类（如： AMapGeoPoint 、 AMapGeoPolygon 等）。 ">AMapCommonObj.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="_a_map_search_obj_8h.html#a7e0153a6bdc4d16ef0844622b9669911">   12</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="_a_map_search_a_p_i_8h.html#ab348273ca368e855732fc5e5f3b28054" title="查询结果语言类型。 ">NS_ENUM</a>(NSInteger, AMapSearchType)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    AMapSearchType_PlaceID = 1,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;       </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    AMapSearchType_PlaceKeyword = 2,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;       </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    AMapSearchType_PlaceAround = 3,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;       </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    AMapSearchType_PlacePolygon = 4,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;       </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    AMapSearchType_Geocode = 5,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;       </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    AMapSearchType_ReGeocode = 6,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    AMapSearchType_StopKeyword = 8,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;       </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    AMapSearchType_InputTips = 9,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;       </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;       </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    AMapSearchType_RoadID       = 11,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;       </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    AMapSearchType_LineID = 13,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    AMapSearchType_LineKeyword = 14,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;       </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    AMapSearchType_NaviDrive = 16,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;       </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    AMapSearchType_NaviWalking = 17,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;       </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    AMapSearchType_NaviBus = 20,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;       AMapSearchType_District     = 22,</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#pragma mark - AMapPlaceSearchRequest</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="code" href="_a_map_search_obj_8h.html#ad89ddf3ed3a440bd0dd14c4b73e7eba4">   94</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="_a_map_search_obj_8h.html#ad89ddf3ed3a440bd0dd14c4b73e7eba4" title="POI查询过滤类型。 ">NS_OPTIONS</a>(NSUInteger, AMapRequireFilter)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    AMapRequireNone             = 0,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;       </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    AMapRequireGroupbuy         = 1 &lt;&lt; 0, </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;       </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    AMapRequireDiscount         = 1 &lt;&lt; 1,</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;       </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    AMapRequireMealOrdering     =  1 &lt;&lt; 2,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;};</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_filter.html">  120</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_place_search_filter.html" title="POI搜索过滤。 ">AMapPlaceSearchFilter</a> : NSObject&lt;NSCopying&gt;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_filter.html#a05833d0ca1bfe5e527da85fa8dc7d061">  125</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSUInteger <a class="code" href="interface_a_map_place_search_filter.html#a05833d0ca1bfe5e527da85fa8dc7d061" title="过滤酒店星级（酒店行业），只限1，2，3，4，5；0 为不过滤。 ">starFilter</a>; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_filter.html#ad0e55ec3fc2bae1dcdee2989a2a73607">  130</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSArray *<a class="code" href="interface_a_map_place_search_filter.html#ad0e55ec3fc2bae1dcdee2989a2a73607" title="过滤平均消费范围（全行业）。NSNumber（double） 数组，[min, max] 表示价格区间，上限max可为空。 ">costFilter</a>; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_filter.html#a78bfff14cf2e5eb5cc245d3cb25d0932">  135</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapRequireFilter <a class="code" href="interface_a_map_place_search_filter.html#a78bfff14cf2e5eb5cc245d3cb25d0932" title="查询结果过滤。 ">requireFilter</a>; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html">  142</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_place_search_request.html" title="POI查询参数类。 ">AMapPlaceSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a9ff0b02bc4d442318c8dfeb52958bdb0">  147</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;   </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;     </div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a326091d81b0efed647885572f7049f7b">  154</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) <a class="code" href="interface_a_map_place_search_filter.html" title="POI搜索过滤。 ">AMapPlaceSearchFilter</a> *searchFilter; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a19cff70bbecb20234e7f9988f64b3c0d">  160</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireGroup;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a6ef75b37965556335b54f7deb8755c21">  167</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireDiscount;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#ae10d4afb05e92f21049cbac6971ba4e6">  171</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *uid;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a0747b8ea71c3888bddaf00a85a7079c4">  177</a></span>&#160;<span class="keyword">@property</span> (nonatomic,copy) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a>* location; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#ae061912ee075b09cc6099ee342e6a6dc">  182</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger radius; </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#ac27ab25349a717aa4b3db258e2c4617a">  187</a></span>&#160;<span class="keyword">@property</span> (nonatomic,copy) <a class="code" href="interface_a_map_geo_polygon.html" title="搜索类使用的多边形类。如果是矩形，则只需要左下、右上两个顶点坐标; 如果是其它情况，则需要首尾坐标相同。 ">AMapGeoPolygon</a>* polygon;   </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a679c321dba77781efb03ecf86f0e65c8">  192</a></span>&#160;<span class="keyword">@property</span> (nonatomic,copy) NSString* keywords;   </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a8fde980054b3ec54d5da6394fb50acae">  197</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* types; </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a6f7a57d140ad325ba1da2b266c3b9a62">  202</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* city;          </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#ad8157c40e6ad3fd56a88cf46d45f61eb">  207</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger sortrule;    </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00212"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#a5c362a3f9b894c44f4716f0e185e896d">  212</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger offset;    </div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_request.html#aee6ab484b833bca922c1de4db2c9d9c6">  217</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger page; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        </div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_response.html">  225</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_place_search_response.html" title="POI查询结果类。 ">AMapPlaceSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_response.html#ab2deea27eb5924af62a3b16e23f46aca">  230</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger count;           </div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_response.html#a68b508a4fb5cc061910e7ad01ac277a2">  235</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) <a class="code" href="interface_a_map_suggestion.html" title="查询建议信息类。 ">AMapSuggestion</a>* suggestion; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno"><a class="code" href="interface_a_map_place_search_response.html#a2a31a38b2b965738d30a9bb722b222d7">  240</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* pois;              </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">#pragma mark - AMapGeocodeSearchRequest</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_request.html">  250</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_geocode_search_request.html" title="地理编码查询参数类。 ">AMapGeocodeSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_request.html#a444a1287df93089378ca25d86c9dbbdd">  255</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00260"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_request.html#a71b9e065768b490828bccb95eb57eade">  260</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *address; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00265"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_request.html#aa9de09613cf3fc34300c91b1b4b84fea">  265</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *city; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_response.html">  273</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_geocode_search_response.html" title="地理编码查询结果类。 ">AMapGeocodeSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_response.html#a99eced1a4d58bff33e97a75de4b182dd">  278</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count;           </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="code" href="interface_a_map_geocode_search_response.html#a85ac8d093a3b33f96dab5eb41e616155">  283</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray* geocodes;    </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;      </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#pragma mark - AMapReGeocodeSearchRequest</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html">  293</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_re_geocode_search_request.html" title="逆地理编码查询参数类。 ">AMapReGeocodeSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html#a1213328fff3dc649efe87ee5e4b1533f">  298</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html#a7853296f29607051a4f41f520206ea79">  303</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireExtension; </div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html#a874c1c507c0b27f85285acb0adabc20c">  307</a></span>&#160;<span class="keyword">@property</span> (nonatomic,copy) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a>* location; </div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html#a74efc907f4057d8e7a148335289548d9">  312</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger radius; </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00317"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_request.html#a5f2e23672094c05c532734fdba522666">  317</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *poiIdFilter; </div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_response.html">  327</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_re_geocode_search_response.html" title="逆地理编码查询结果类。 ">AMapReGeocodeSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode_search_response.html#a0d9ba286f373de6a16cdec12e1499b68">  332</a></span>&#160;<span class="keyword">@property</span>(nonatomic, strong) <a class="code" href="interface_a_map_re_geocode.html" title="逆地理编码信息类。 ">AMapReGeocode</a> *regeocode; </div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">#pragma mark - AMapInputTipsSearchRequest</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_request.html">  344</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_input_tips_search_request.html" title="输入提示查询参数类。 ">AMapInputTipsSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_request.html#aa76b59292918d5550ff84332fc9f0e09">  349</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
+<div class="line"><a name="l00354"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_request.html#a34eeecd5938946579b7d8841d3249529">  354</a></span>&#160;<span class="keyword">@property</span> (nonatomic,copy) NSString* keywords;   </div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00359"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_request.html#aee40ca26d0f1c160f77f66fb8925db39">  359</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* types; </div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00364"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_request.html#a32c65814cf8b8355d2d6305077f0d104">  364</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* city; </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_response.html">  372</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_input_tips_search_response.html" title="输入提示查询结果类。 ">AMapInputTipsSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_response.html#a8016d3674af0ab9191fcbd422f884cc9">  377</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count;   </div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00382"></a><span class="lineno"><a class="code" href="interface_a_map_input_tips_search_response.html#aacfdf12b2cdef1556b322796cba929b5">  382</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *tips; </div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="preprocessor">#pragma mark - AMapBusLineSearchRequest</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html">  392</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_line_search_request.html" title="公交线路查询参数类。 ">AMapBusLineSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00397"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#ae664a801135a3e6b77ee6b197ab7174f">  397</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
+<div class="line"><a name="l00404"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#a6946f211ce2b554f32473437685e6db2">  404</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireExtension; </div>
+<div class="line"><a name="l00408"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#a600556641acc907167f9ed14b719ee36">  408</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *uid;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
+<div class="line"><a name="l00414"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#adf9325670dcb2918f1e1c330628a6c7b">  414</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *keywords;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
+<div class="line"><a name="l00419"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#ab60dd847f562d4552ef7505bd636891b">  419</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *city; </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;</div>
+<div class="line"><a name="l00424"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#a68b7e7b4f496ab8bcb1ef694e90a9002">  424</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger offset;    </div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;</div>
+<div class="line"><a name="l00429"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_request.html#a17d7b0766dfc929b04cf5d00e4699821">  429</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger page;         </div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
+<div class="line"><a name="l00437"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_response.html">  437</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_line_search_response.html" title="公交线路查询结果类。 ">AMapBusLineSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
+<div class="line"><a name="l00442"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_response.html#ad1df38706cbe80a06d9b3b3d2173be7a">  442</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count; </div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;           </div>
+<div class="line"><a name="l00447"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_response.html#a2587abd634869e378f64779f6b5a085d">  447</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_suggestion.html" title="查询建议信息类。 ">AMapSuggestion</a> *suggestion; </div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;</div>
+<div class="line"><a name="l00452"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line_search_response.html#acf4882c1365df8258036b490d7cd13b3">  452</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *buslines;</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;<span class="preprocessor">#pragma mark - AMapBusStopSearchRequest</span></div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00461"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html">  461</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_stop_search_request.html" title="公交站查询参数类 ">AMapBusStopSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;</div>
+<div class="line"><a name="l00466"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html#a16ed8c38a7ae2c37116c335ef739e275">  466</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;</div>
+<div class="line"><a name="l00471"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html#affd78983bfd59e77e935c572b89987e8">  471</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *keywords; </div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;</div>
+<div class="line"><a name="l00476"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html#a182e64bd89327ecb5beab8c23d87f67b">  476</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *city; </div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
+<div class="line"><a name="l00481"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html#aac7a1fe94e1f5b22d3782b9fd548e71c">  481</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger offset;    </div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;</div>
+<div class="line"><a name="l00486"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_request.html#afaea21dc9e10bfc297c6158ba24a8004">  486</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger page;  </div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;</div>
+<div class="line"><a name="l00495"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_response.html">  495</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_stop_search_response.html" title="公交站查询结果类。 ">AMapBusStopSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;</div>
+<div class="line"><a name="l00500"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_response.html#a576534eea3d06cef40cc8f4e7888e494">  500</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count;            </div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;</div>
+<div class="line"><a name="l00505"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_response.html#a8b745e2444c66b26ac10358af398d621">  505</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_suggestion.html" title="查询建议信息类。 ">AMapSuggestion</a> *suggestion; </div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
+<div class="line"><a name="l00510"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop_search_response.html#a0609506d82acbb5060f1aaea2f14156e">  510</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *busstops;</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor">#pragma mark - AMapNavigationSearchRequest</span></div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00520"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html">  520</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_navigation_search_request.html" title="路径规划查询参数类。 ">AMapNavigationSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
+<div class="line"><a name="l00525"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a63b70ebdec4e1311e79141d6aeadd4e5">  525</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;</div>
+<div class="line"><a name="l00530"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a1a24ddbdc58f0a9e0696a1829f423d54">  530</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger multipath; </div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;</div>
+<div class="line"><a name="l00535"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#ac70f40c736d2fb370f2f2fb143140c31">  535</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *waypoints; </div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;</div>
+<div class="line"><a name="l00540"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#ad8823c6271c035e3616593a5e68ee974">  540</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *avoidpolygons; </div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;</div>
+<div class="line"><a name="l00545"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#acf465785e010b14d3ee9cc90eafd6a9a">  545</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *avoidroad; </div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;</div>
+<div class="line"><a name="l00550"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a7a7203858c872f270d513439afb5d75d">  550</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *originId; </div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;</div>
+<div class="line"><a name="l00555"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#aa4e8c325aa219d0c1c50910448d212bb">  555</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *destinationId;</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;</div>
+<div class="line"><a name="l00561"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a3ecd86b7864a30e2428b1c1da45b2d04">  561</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL nightflag; </div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;</div>
+<div class="line"><a name="l00570"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a73338f16c9b236a64b927aab8dbcc2f0">  570</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger strategy; </div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
+<div class="line"><a name="l00575"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a4499f2f00b0610caf29113d3911985a6">  575</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *origin;</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div>
+<div class="line"><a name="l00580"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#acc3d179d85758b8b26c6f3530ea53bf0">  580</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *destination; </div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;</div>
+<div class="line"><a name="l00585"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a722146dcdbd87db1b7ee520f33ae37eb">  585</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *city;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;</div>
+<div class="line"><a name="l00590"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_request.html#a56c9fadfc1cd1b861ed7cb14121d1e58">  590</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireExtension;</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;</div>
+<div class="line"><a name="l00598"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_response.html">  598</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_navigation_search_response.html" title="路径规划查询结果类。 ">AMapNavigationSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;</div>
+<div class="line"><a name="l00603"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_response.html#ab21c4dcf46d2e9f2e508231faa6acd4a">  603</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count;           </div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;</div>
+<div class="line"><a name="l00608"></a><span class="lineno"><a class="code" href="interface_a_map_navigation_search_response.html#ab73e273024e7d6b26169f0dc705f8d16">  608</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_route.html" title="路径规划（驾车、步行、公交）信息类，表示一次路径规划计算结果。 ">AMapRoute</a> *route;          </div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor">#pragma mark - AMapDistrictSearchRequest</span></div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00617"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_request.html">  617</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_district_search_request.html" title="行政区划查询参数类。 ">AMapDistrictSearchRequest</a> : NSObject</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
+<div class="line"><a name="l00622"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_request.html#a3f551617ca1bc48e19e195abf66f3186">  622</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) AMapSearchType searchType;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
+<div class="line"><a name="l00627"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_request.html#ac85179301f732e21d901b2e989719f74">  627</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *keywords;</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div>
+<div class="line"><a name="l00632"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_request.html#a6f9f010ba86b92909dae3c7dad37a500">  632</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL requireExtension;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div>
+<div class="line"><a name="l00639"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_response.html">  639</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_district_search_response.html" title="行政区划查询结果类。 ">AMapDistrictSearchResponse</a> : NSObject</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
+<div class="line"><a name="l00644"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_response.html#a9a4c3d11af10a7ee8841af2b7ab46b52">  644</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger count; </div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
+<div class="line"><a name="l00649"></a><span class="lineno"><a class="code" href="interface_a_map_district_search_response.html#a8b2ef278d912d749d27ecaff15d82730">  649</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *districts; </div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;<span class="keyword">@end</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+﻿&#169; 2014 高德软件有限公司 版权所有，保留所有权利。 

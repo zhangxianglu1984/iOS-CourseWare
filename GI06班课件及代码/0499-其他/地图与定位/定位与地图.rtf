@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg936\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset134 STSongti-SC-Regular;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red46\green13\blue110;\red170\green13\blue145;\red92\green38\blue153;
+\red0\green0\blue0;\red0\green116\blue0;\red63\green110\blue116;\red196\green26\blue22;\red28\green0\blue207;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 \'b6\'a8\'ce\'bb\'d3\'eb\'b5\'d8\'cd\'bc\
+\
+1.\'b6\'a8\'ce\'bb\
+1>\'bb\'f9\'d3\'daCoreLocation\
+2>\'ca\'b9\'d3\'c3CLLoactionManager\'d7\'f6\'d3\'c3\'bb\'a7\'b6\'a8\'ce\'bb\
+3>\'ca\'b9\'d3\'c3\'a3\'ba
+\f1 \CocoaLigature0 \
+\pard\tx288\pardeftab288\pardirnatural
+\cf0     - \cf2 startUpdatingLocation\cf0 \
+		- (\cf3 void\cf0 )locationManager:(\cf4 CLLocationManager\cf0  *)manager\
+    didUpdateLocations:(\cf4 NSArray\cf0  *)locations\
+4>
+\f0 \'d7\'a2\'d2\'e2
+\f1 \
+		XCode6
+\f0 \'d6\'ae\'ba\'f3\'a3\'ac\'d0\'e8\'d2\'aa\'ca\'d6\'b6\'af\'c9\'e8\'d6\'c3\'b6\'a8\'ce\'bb\'c8\'a8\'cf\'de\'a3\'ac\'d3\'d0\'c1\'bd\'b5\'e3\'d0\'e8\'d2\'aa\'cd\'ea\'b3\'c9\
+		4.1 \'d0\'e8\'d2\'aa\'d4\'daplist\'ce\'c4\'bc\'fe\'d6\'d0\'cc\'ed\'bc\'d3\cf5 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec5 NSLocationAlwaysUsageDescription\'a1\'a2NSLocationWhenInUseUsageDescription\'d5\'e2\'c1\'bd\'b8\'f6\'d1\'a1\'cf\'ee\'a3\'ac\'b2\'a2\'c9\'e8\'d6\'c3\'ce\'aa\'b2\'bc\'b6\'fb\'d6\'b5YES\
+		4.2 \'d4\'da\'ca\'b9\'d3\'c3\'b6\'a8\'ce\'bb\'b7\'fe\'ce\'f1\'c7\'b0\'ca\'d7\'cf\'c8\'b5\'f7\'d3\'c3CLLocationManager\'c0\'ef\'c3\'e6\'b5\'c4\'c1\'bd\'b8\'f6\'b7\'bd\'b7\'a8\'d6\'d0\'b5\'c4\'d2\'bb\'b8\'f6\'a3\'ba\
+\pard\pardeftab720
+
+\f2 \cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 	
+\f0 \'a3\'a81\'a3\'a9\'ca\'bc\'d6\'d5\'d4\'ca\'d0\'ed\'b7\'c3\'ce\'ca\'ce\'bb\'d6\'c3\'d0\'c5\'cf\'a2\
+	         - (void)requestAlwaysAuthorization;\
+\'a1\'a1\'a1\'a1    \'a3\'a82\'a3\'a9\'ca\'b9\'d3\'c3\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'c6\'da\'bc\'e4\'d4\'ca\'d0\'ed\'b7\'c3\'ce\'ca\'ce\'bb\'d6\'c3\'ca\'fd\'be\'dd\
+\'a1\'a1\'a1\'a1             - (void)requestWhenInUseAuthorization;\
+5>\'b5\'d8\'c0\'ed\'b1\'e0\'c2\'eb\'ba\'cd\'c4\'e6\'b5\'d8\'c0\'ed\'b1\'e0\'c2\'eb\
+\pard\tx288\pardeftab288\pardirnatural
+
+\f1 \cf6 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 		// 
+\f0 \'b5\'d8\'c0\'ed\'b1\'e0\'c2\'eb
+\f1 \cf0 \
+    [\cf3 self\cf0 .\cf7 geocoder\cf0  \cf2 geocodeAddressString\cf0 :\cf8 @"
+\f0 \'cf\'c3\'c3\'c5\'ca\'d0\'cd\'fb\'ba\'a3\'c2\'b7
+\f1 55
+\f0 \'ba\'c5
+\f1 "\cf0  \cf2 completionHandler\cf0 :^(\cf4 NSArray\cf0  *placemarks, \cf4 NSError\cf0  *error) \{\
+         \cf4 CLPlacemark\cf0  *placeMark = [placemarks \cf2 firstObject\cf0 ];\
+        \cf2 NSLog\cf0 (\cf8 @"%f - %f"\cf0 ,placeMark.\cf4 location\cf0 .\cf4 coordinate\cf0 .\cf4 latitude\cf0 ,\
+              placeMark.\cf4 location\cf0 .\cf4 coordinate\cf0 .\cf4 longitude\cf0 );\
+    \}];\
+    \
+    \cf6 // 
+\f0 \'c4\'e6\'b5\'d8\'c0\'ed\'b1\'e0\'c2\'eb
+\f1 \cf0 \
+    \cf4 CLLocation\cf0  *location = [[\cf4 CLLocation\cf0  \cf2 alloc\cf0 ]\cf2 initWithLatitude\cf0 :\cf9 24.489363f\cf0  \cf2 longitude\cf0 :\cf9 118.185662f\cf0 ];\
+    [\cf3 self\cf0 .\cf7 geocoder\cf0  \cf2 reverseGeocodeLocation\cf0 :location \cf2 completionHandler\cf0 :^(\cf4 NSArray\cf0  *placemarks, \cf4 NSError\cf0  *error) \{\
+        \cf2 NSLog\cf0 (\cf8 @"%@"\cf0 ,[[placemarks \cf2 firstObject\cf0 ] \cf2 name\cf0 ]);\
+    \}];
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec5 \
+}

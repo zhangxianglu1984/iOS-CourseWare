@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ftb-C8-x7K" customClass="MyView">
+                                <rect key="frame" x="150" y="30" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="XoC-Hf-Pk5"/>
+                                    <constraint firstAttribute="height" constant="300" id="kpT-NL-LuY"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="2" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="g7Z-D8-dDn">
+                                <rect key="frame" x="64" y="520" width="472" height="31"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="RBC-80-ReO"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g7Z-D8-dDn" secondAttribute="bottom" constant="50" id="0nj-uT-E7T"/>
+                            <constraint firstItem="g7Z-D8-dDn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="30M-pE-ZeG"/>
+                            <constraint firstAttribute="centerY" secondItem="ftb-C8-x7K" secondAttribute="centerY" constant="120" id="82K-ri-A4q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g7Z-D8-dDn" secondAttribute="trailing" constant="50" id="hcf-gQ-cya"/>
+                            <constraint firstAttribute="centerX" secondItem="ftb-C8-x7K" secondAttribute="centerX" id="hpr-IW-BRw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="ftb-C8-x7K" id="CEy-oQ-ypR"/>
+                        <outlet property="slider" destination="g7Z-D8-dDn" id="Uy5-by-6eP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

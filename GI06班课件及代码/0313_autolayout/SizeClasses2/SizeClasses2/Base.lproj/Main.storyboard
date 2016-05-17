@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zps-KS-39e">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVt-Nk-qiY">
+                                <rect key="frame" x="276" y="285" width="51" height="31"/>
+                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="276" y="385" width="51" height="31"/>
+                                </variation>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="gVt-Nk-qiY" secondAttribute="centerY" id="NkH-dD-tMU"/>
+                            <constraint firstAttribute="centerX" secondItem="gVt-Nk-qiY" secondAttribute="centerX" id="hTC-aP-WjP">
+                                <variation key="heightClass=compact-widthClass=compact" constant="100"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="-528"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="90I-uc-cES">
+            <objects>
+                <viewController id="d8j-bE-6Dr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Owi-g7-pc2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ues-Fz-e1G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pFd-5Z-eUU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytd-HM-1gB">
+                                <rect key="frame" x="276" y="285" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="ytd-HM-1gB" secondAttribute="centerY" constant="100" id="H93-vp-Wa7"/>
+                            <constraint firstAttribute="centerX" secondItem="ytd-HM-1gB" secondAttribute="centerX" id="ekD-tH-O8H"/>
+                            <constraint firstAttribute="centerY" secondItem="ytd-HM-1gB" secondAttribute="centerY" id="gfQ-Zb-75N"/>
+                            <constraint firstAttribute="centerX" secondItem="ytd-HM-1gB" secondAttribute="centerX" id="pfp-Gz-YRC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="H93-vp-Wa7"/>
+                                <exclude reference="pfp-Gz-YRC"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="H93-vp-Wa7"/>
+                                <exclude reference="ekD-tH-O8H"/>
+                                <exclude reference="gfQ-Zb-75N"/>
+                                <include reference="pfp-Gz-YRC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mp7-we-qgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="198"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OgL-dO-fT1">
+            <objects>
+                <viewController id="D6J-VY-2rj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ayZ-tn-Qoe"/>
+                        <viewControllerLayoutGuide type="bottom" id="xjM-Xr-8nF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ken-NS-FGZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7G-56-5VM">
+                                <rect key="frame" x="276" y="285" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="G7G-56-5VM" secondAttribute="centerY" id="GJB-FW-dxX"/>
+                            <constraint firstAttribute="centerX" secondItem="G7G-56-5VM" secondAttribute="centerX" id="IqY-yT-Av4"/>
+                            <constraint firstAttribute="centerY" secondItem="G7G-56-5VM" secondAttribute="centerY" id="gQr-ov-2cF"/>
+                            <constraint firstAttribute="centerX" secondItem="G7G-56-5VM" secondAttribute="centerX" constant="-100" id="ob3-OB-W51"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GJB-FW-dxX"/>
+                                <exclude reference="ob3-OB-W51"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="GJB-FW-dxX"/>
+                                <exclude reference="IqY-yT-Av4"/>
+                                <exclude reference="gQr-ov-2cF"/>
+                                <include reference="ob3-OB-W51"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33v-Sf-9Ik" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097" y="-528"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hCq-vB-gH0">
+            <objects>
+                <viewController id="zps-KS-39e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wya-Tr-QyU"/>
+                        <viewControllerLayoutGuide type="bottom" id="ea2-Ff-klg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4gI-XB-Fs9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-06-DXR">
+                                <rect key="frame" x="276" y="285" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="xMg-06-DXR" secondAttribute="centerX" id="8bP-c9-zBI"/>
+                            <constraint firstAttribute="centerY" secondItem="xMg-06-DXR" secondAttribute="centerY" constant="-100" id="Ckm-9V-904"/>
+                            <constraint firstAttribute="centerX" secondItem="xMg-06-DXR" secondAttribute="centerX" id="IdD-Mm-BJ0"/>
+                            <constraint firstAttribute="centerY" secondItem="xMg-06-DXR" secondAttribute="centerY" id="zHK-ZN-fpW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8bP-c9-zBI"/>
+                                <exclude reference="Ckm-9V-904"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="8bP-c9-zBI"/>
+                                <include reference="Ckm-9V-904"/>
+                                <exclude reference="IdD-Mm-BJ0"/>
+                                <exclude reference="zHK-ZN-fpW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDd-qs-Lbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1107" y="225"/>
+        </scene>
+    </scenes>
+</document>

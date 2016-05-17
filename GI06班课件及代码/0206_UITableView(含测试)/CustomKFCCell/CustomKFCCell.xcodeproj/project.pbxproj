@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1F74FE1A84902F0053656E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F74FD1A84902F0053656E /* main.m */; };
+		9F1F75011A84902F0053656E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F75001A84902F0053656E /* AppDelegate.m */; };
+		9F1F75041A84902F0053656E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F75031A84902F0053656E /* ViewController.m */; };
+		9F1F75071A84902F0053656E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75051A84902F0053656E /* Main.storyboard */; };
+		9F1F75091A84902F0053656E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75081A84902F0053656E /* Images.xcassets */; };
+		9F1F750C1A84902F0053656E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F750A1A84902F0053656E /* LaunchScreen.xib */; };
+		9F1F75181A84902F0053656E /* CustomKFCCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F75171A84902F0053656E /* CustomKFCCellTests.m */; };
+		9F1F752B1A84903F0053656E /* KFC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75221A84903F0053656E /* KFC.plist */; };
+		9F1F752C1A84903F0053656E /* kfc0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75231A84903F0053656E /* kfc0.jpg */; };
+		9F1F752D1A84903F0053656E /* kfc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75241A84903F0053656E /* kfc1.jpg */; };
+		9F1F752E1A84903F0053656E /* kfc2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75251A84903F0053656E /* kfc2.jpg */; };
+		9F1F752F1A84903F0053656E /* kfc3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75261A84903F0053656E /* kfc3.jpg */; };
+		9F1F75301A84903F0053656E /* kfc4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75271A84903F0053656E /* kfc4.jpg */; };
+		9F1F75311A84903F0053656E /* kfc5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75281A84903F0053656E /* kfc5.jpg */; };
+		9F1F75321A84903F0053656E /* kfc6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F75291A84903F0053656E /* kfc6.jpg */; };
+		9F1F75331A84903F0053656E /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F752A1A84903F0053656E /* new.png */; };
+		9F1F75391A849A120053656E /* KFCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F75381A849A120053656E /* KFCCell.m */; };
+		9F1F753C1A84A07A0053656E /* KFC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F753B1A84A07A0053656E /* KFC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1F75121A84902F0053656E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1F74F01A84902E0053656E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1F74F71A84902E0053656E;
+			remoteInfo = CustomKFCCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1F74F81A84902E0053656E /* CustomKFCCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKFCCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1F74FC1A84902F0053656E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1F74FD1A84902F0053656E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F1F74FF1A84902F0053656E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F1F75001A84902F0053656E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F1F75021A84902F0053656E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F1F75031A84902F0053656E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F1F75061A84902F0053656E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1F75081A84902F0053656E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F1F750B1A84902F0053656E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9F1F75111A84902F0053656E /* CustomKFCCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKFCCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1F75161A84902F0053656E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1F75171A84902F0053656E /* CustomKFCCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKFCCellTests.m; sourceTree = "<group>"; };
+		9F1F75221A84903F0053656E /* KFC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KFC.plist; sourceTree = "<group>"; };
+		9F1F75231A84903F0053656E /* kfc0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc0.jpg; sourceTree = "<group>"; };
+		9F1F75241A84903F0053656E /* kfc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc1.jpg; sourceTree = "<group>"; };
+		9F1F75251A84903F0053656E /* kfc2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc2.jpg; sourceTree = "<group>"; };
+		9F1F75261A84903F0053656E /* kfc3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc3.jpg; sourceTree = "<group>"; };
+		9F1F75271A84903F0053656E /* kfc4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc4.jpg; sourceTree = "<group>"; };
+		9F1F75281A84903F0053656E /* kfc5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc5.jpg; sourceTree = "<group>"; };
+		9F1F75291A84903F0053656E /* kfc6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kfc6.jpg; sourceTree = "<group>"; };
+		9F1F752A1A84903F0053656E /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		9F1F75371A849A120053656E /* KFCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFCCell.h; sourceTree = "<group>"; };
+		9F1F75381A849A120053656E /* KFCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFCCell.m; sourceTree = "<group>"; };
+		9F1F753A1A84A07A0053656E /* KFC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFC.h; sourceTree = "<group>"; };
+		9F1F753B1A84A07A0053656E /* KFC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1F74F51A84902E0053656E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1F750E1A84902F0053656E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1F74EF1A84902E0053656E = {
+			isa = PBXGroup;
+			children = (
+				9F1F74FA1A84902E0053656E /* CustomKFCCell */,
+				9F1F75141A84902F0053656E /* CustomKFCCellTests */,
+				9F1F74F91A84902E0053656E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1F74F91A84902E0053656E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F74F81A84902E0053656E /* CustomKFCCell.app */,
+				9F1F75111A84902F0053656E /* CustomKFCCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1F74FA1A84902E0053656E /* CustomKFCCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75361A84975A0053656E /* Controllers */,
+				9F1F75351A8497500053656E /* Model */,
+				9F1F75341A8497450053656E /* Views */,
+				9F1F74FF1A84902F0053656E /* AppDelegate.h */,
+				9F1F75001A84902F0053656E /* AppDelegate.m */,
+				9F1F75051A84902F0053656E /* Main.storyboard */,
+				9F1F75081A84902F0053656E /* Images.xcassets */,
+				9F1F750A1A84902F0053656E /* LaunchScreen.xib */,
+				9F1F74FB1A84902F0053656E /* Supporting Files */,
+			);
+			path = CustomKFCCell;
+			sourceTree = "<group>";
+		};
+		9F1F74FB1A84902F0053656E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75211A84903F0053656E /* image */,
+				9F1F74FC1A84902F0053656E /* Info.plist */,
+				9F1F74FD1A84902F0053656E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F1F75141A84902F0053656E /* CustomKFCCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75171A84902F0053656E /* CustomKFCCellTests.m */,
+				9F1F75151A84902F0053656E /* Supporting Files */,
+			);
+			path = CustomKFCCellTests;
+			sourceTree = "<group>";
+		};
+		9F1F75151A84902F0053656E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75161A84902F0053656E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F1F75211A84903F0053656E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75221A84903F0053656E /* KFC.plist */,
+				9F1F75231A84903F0053656E /* kfc0.jpg */,
+				9F1F75241A84903F0053656E /* kfc1.jpg */,
+				9F1F75251A84903F0053656E /* kfc2.jpg */,
+				9F1F75261A84903F0053656E /* kfc3.jpg */,
+				9F1F75271A84903F0053656E /* kfc4.jpg */,
+				9F1F75281A84903F0053656E /* kfc5.jpg */,
+				9F1F75291A84903F0053656E /* kfc6.jpg */,
+				9F1F752A1A84903F0053656E /* new.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9F1F75341A8497450053656E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75371A849A120053656E /* KFCCell.h */,
+				9F1F75381A849A120053656E /* KFCCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F1F75351A8497500053656E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F753A1A84A07A0053656E /* KFC.h */,
+				9F1F753B1A84A07A0053656E /* KFC.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F1F75361A84975A0053656E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F75021A84902F0053656E /* ViewController.h */,
+				9F1F75031A84902F0053656E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1F74F71A84902E0053656E /* CustomKFCCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1F751B1A84902F0053656E /* Build configuration list for PBXNativeTarget "CustomKFCCell" */;
+			buildPhases = (
+				9F1F74F41A84902E0053656E /* Sources */,
+				9F1F74F51A84902E0053656E /* Frameworks */,
+				9F1F74F61A84902E0053656E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKFCCell;
+			productName = CustomKFCCell;
+			productReference = 9F1F74F81A84902E0053656E /* CustomKFCCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1F75101A84902F0053656E /* CustomKFCCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1F751E1A84902F0053656E /* Build configuration list for PBXNativeTarget "CustomKFCCellTests" */;
+			buildPhases = (
+				9F1F750D1A84902F0053656E /* Sources */,
+				9F1F750E1A84902F0053656E /* Frameworks */,
+				9F1F750F1A84902F0053656E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1F75131A84902F0053656E /* PBXTargetDependency */,
+			);
+			name = CustomKFCCellTests;
+			productName = CustomKFCCellTests;
+			productReference = 9F1F75111A84902F0053656E /* CustomKFCCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1F74F01A84902E0053656E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					9F1F74F71A84902E0053656E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9F1F75101A84902F0053656E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9F1F74F71A84902E0053656E;
+					};
+				};
+			};
+			buildConfigurationList = 9F1F74F31A84902E0053656E /* Build configuration list for PBXProject "CustomKFCCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1F74EF1A84902E0053656E;
+			productRefGroup = 9F1F74F91A84902E0053656E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1F74F71A84902E0053656E /* CustomKFCCell */,
+				9F1F75101A84902F0053656E /* CustomKFCCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1F74F61A84902E0053656E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1F75331A84903F0053656E /* new.png in Resources */,
+				9F1F75071A84902F0053656E /* Main.storyboard in Resources */,
+				9F1F752C1A84903F0053656E /* kfc0.jpg in Resources */,
+				9F1F752E1A84903F0053656E /* kfc2.jpg in Resources */,
+				9F1F750C1A84902F0053656E /* LaunchScreen.xib in Resources */,
+				9F1F75321A84903F0053656E /* kfc6.jpg in Resources */,
+				9F1F75301A84903F0053656E /* kfc4.jpg in Resources */,
+				9F1F75091A84902F0053656E /* Images.xcassets in Resources */,
+				9F1F75311A84903F0053656E /* kfc5.jpg in Resources */,
+				9F1F752D1A84903F0053656E /* kfc1.jpg in Resources */,
+				9F1F752F1A84903F0053656E /* kfc3.jpg in Resources */,
+				9F1F752B1A84903F0053656E /* KFC.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1F750F1A84902F0053656E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1F74F41A84902E0053656E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1F75391A849A120053656E /* KFCCell.m in Sources */,
+				9F1F75041A84902F0053656E /* ViewController.m in Sources */,
+				9F1F753C1A84A07A0053656E /* KFC.m in Sources */,
+				9F1F75011A84902F0053656E /* AppDelegate.m in Sources */,
+				9F1F74FE1A84902F0053656E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1F750D1A84902F0053656E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1F75181A84902F0053656E /* CustomKFCCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1F75131A84902F0053656E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1F74F71A84902E0053656E /* CustomKFCCell */;
+			targetProxy = 9F1F75121A84902F0053656E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1F75051A84902F0053656E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1F75061A84902F0053656E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1F750A1A84902F0053656E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1F750B1A84902F0053656E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1F75191A84902F0053656E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1F751A1A84902F0053656E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1F751C1A84902F0053656E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKFCCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F1F751D1A84902F0053656E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKFCCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F1F751F1A84902F0053656E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKFCCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKFCCell.app/CustomKFCCell";
+			};
+			name = Debug;
+		};
+		9F1F75201A84902F0053656E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKFCCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKFCCell.app/CustomKFCCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1F74F31A84902E0053656E /* Build configuration list for PBXProject "CustomKFCCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1F75191A84902F0053656E /* Debug */,
+				9F1F751A1A84902F0053656E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1F751B1A84902F0053656E /* Build configuration list for PBXNativeTarget "CustomKFCCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1F751C1A84902F0053656E /* Debug */,
+				9F1F751D1A84902F0053656E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F1F751E1A84902F0053656E /* Build configuration list for PBXNativeTarget "CustomKFCCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1F751F1A84902F0053656E /* Debug */,
+				9F1F75201A84902F0053656E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1F74F01A84902E0053656E /* Project object */;
+}

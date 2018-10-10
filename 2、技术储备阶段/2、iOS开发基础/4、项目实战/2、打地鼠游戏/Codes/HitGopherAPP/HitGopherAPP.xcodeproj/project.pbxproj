@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B004A551CED5E25005BF00E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A541CED5E25005BF00E /* main.m */; };
+		1B004A581CED5E25005BF00E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A571CED5E25005BF00E /* AppDelegate.m */; };
+		1B004A5E1CED5E25005BF00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B004A5C1CED5E25005BF00E /* Main.storyboard */; };
+		1B004A601CED5E25005BF00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B004A5F1CED5E25005BF00E /* Assets.xcassets */; };
+		1B004A631CED5E25005BF00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B004A611CED5E25005BF00E /* LaunchScreen.storyboard */; };
+		1B004A841CEDDA9D005BF00E /* IMCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A7D1CEDDA9D005BF00E /* IMCGameViewController.m */; };
+		1B004A851CEDDA9D005BF00E /* IMCGamePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A811CEDDA9D005BF00E /* IMCGamePanelView.m */; };
+		1B004A861CEDDA9D005BF00E /* IMCGopherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A831CEDDA9D005BF00E /* IMCGopherButton.m */; };
+		1B004A891CEDDAE1005BF00E /* IMCGameControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A881CEDDAE1005BF00E /* IMCGameControlModel.m */; };
+		1B004A8C1CEDDC41005BF00E /* IMCScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B004A8B1CEDDC41005BF00E /* IMCScoreModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B004A501CED5E25005BF00E /* HitGopherAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitGopherAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B004A541CED5E25005BF00E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B004A561CED5E25005BF00E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B004A571CED5E25005BF00E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B004A5D1CED5E25005BF00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B004A5F1CED5E25005BF00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B004A621CED5E25005BF00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B004A641CED5E25005BF00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B004A7C1CEDDA9D005BF00E /* IMCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCGameViewController.h; sourceTree = "<group>"; };
+		1B004A7D1CEDDA9D005BF00E /* IMCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCGameViewController.m; sourceTree = "<group>"; };
+		1B004A801CEDDA9D005BF00E /* IMCGamePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCGamePanelView.h; sourceTree = "<group>"; };
+		1B004A811CEDDA9D005BF00E /* IMCGamePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCGamePanelView.m; sourceTree = "<group>"; };
+		1B004A821CEDDA9D005BF00E /* IMCGopherButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCGopherButton.h; sourceTree = "<group>"; };
+		1B004A831CEDDA9D005BF00E /* IMCGopherButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCGopherButton.m; sourceTree = "<group>"; };
+		1B004A871CEDDAE1005BF00E /* IMCGameControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCGameControlModel.h; sourceTree = "<group>"; };
+		1B004A881CEDDAE1005BF00E /* IMCGameControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCGameControlModel.m; sourceTree = "<group>"; };
+		1B004A8A1CEDDC41005BF00E /* IMCScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCScoreModel.h; sourceTree = "<group>"; };
+		1B004A8B1CEDDC41005BF00E /* IMCScoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCScoreModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B004A4D1CED5E25005BF00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B004A471CED5E25005BF00E = {
+			isa = PBXGroup;
+			children = (
+				1B004A521CED5E25005BF00E /* HitGopherAPP */,
+				1B004A511CED5E25005BF00E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B004A511CED5E25005BF00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A501CED5E25005BF00E /* HitGopherAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B004A521CED5E25005BF00E /* HitGopherAPP */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A7A1CEDDA9D005BF00E /* Class */,
+				1B004A531CED5E25005BF00E /* Supporting Files */,
+			);
+			path = HitGopherAPP;
+			sourceTree = "<group>";
+		};
+		1B004A531CED5E25005BF00E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A561CED5E25005BF00E /* AppDelegate.h */,
+				1B004A571CED5E25005BF00E /* AppDelegate.m */,
+				1B004A5C1CED5E25005BF00E /* Main.storyboard */,
+				1B004A5F1CED5E25005BF00E /* Assets.xcassets */,
+				1B004A611CED5E25005BF00E /* LaunchScreen.storyboard */,
+				1B004A641CED5E25005BF00E /* Info.plist */,
+				1B004A541CED5E25005BF00E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B004A7A1CEDDA9D005BF00E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A7B1CEDDA9D005BF00E /* Controller */,
+				1B004A7E1CEDDA9D005BF00E /* Model */,
+				1B004A7F1CEDDA9D005BF00E /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1B004A7B1CEDDA9D005BF00E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A7C1CEDDA9D005BF00E /* IMCGameViewController.h */,
+				1B004A7D1CEDDA9D005BF00E /* IMCGameViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B004A7E1CEDDA9D005BF00E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A871CEDDAE1005BF00E /* IMCGameControlModel.h */,
+				1B004A881CEDDAE1005BF00E /* IMCGameControlModel.m */,
+				1B004A8A1CEDDC41005BF00E /* IMCScoreModel.h */,
+				1B004A8B1CEDDC41005BF00E /* IMCScoreModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B004A7F1CEDDA9D005BF00E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B004A801CEDDA9D005BF00E /* IMCGamePanelView.h */,
+				1B004A811CEDDA9D005BF00E /* IMCGamePanelView.m */,
+				1B004A821CEDDA9D005BF00E /* IMCGopherButton.h */,
+				1B004A831CEDDA9D005BF00E /* IMCGopherButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B004A4F1CED5E25005BF00E /* HitGopherAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B004A671CED5E25005BF00E /* Build configuration list for PBXNativeTarget "HitGopherAPP" */;
+			buildPhases = (
+				1B004A4C1CED5E25005BF00E /* Sources */,
+				1B004A4D1CED5E25005BF00E /* Frameworks */,
+				1B004A4E1CED5E25005BF00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitGopherAPP;
+			productName = HitGopherAPP;
+			productReference = 1B004A501CED5E25005BF00E /* HitGopherAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B004A481CED5E25005BF00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IMC;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiangluzhang;
+				TargetAttributes = {
+					1B004A4F1CED5E25005BF00E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6Q8KBEARYC;
+					};
+				};
+			};
+			buildConfigurationList = 1B004A4B1CED5E25005BF00E /* Build configuration list for PBXProject "HitGopherAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B004A471CED5E25005BF00E;
+			productRefGroup = 1B004A511CED5E25005BF00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B004A4F1CED5E25005BF00E /* HitGopherAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B004A4E1CED5E25005BF00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B004A631CED5E25005BF00E /* LaunchScreen.storyboard in Resources */,
+				1B004A601CED5E25005BF00E /* Assets.xcassets in Resources */,
+				1B004A5E1CED5E25005BF00E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B004A4C1CED5E25005BF00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B004A581CED5E25005BF00E /* AppDelegate.m in Sources */,
+				1B004A841CEDDA9D005BF00E /* IMCGameViewController.m in Sources */,
+				1B004A551CED5E25005BF00E /* main.m in Sources */,
+				1B004A891CEDDAE1005BF00E /* IMCGameControlModel.m in Sources */,
+				1B004A8C1CEDDC41005BF00E /* IMCScoreModel.m in Sources */,
+				1B004A861CEDDA9D005BF00E /* IMCGopherButton.m in Sources */,
+				1B004A851CEDDA9D005BF00E /* IMCGamePanelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B004A5C1CED5E25005BF00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B004A5D1CED5E25005BF00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B004A611CED5E25005BF00E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B004A621CED5E25005BF00E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B004A651CED5E25005BF00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B004A661CED5E25005BF00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B004A681CED5E25005BF00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HitGopherAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gopher.HitGopherAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1B004A691CED5E25005BF00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HitGopherAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gopher.HitGopherAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B004A4B1CED5E25005BF00E /* Build configuration list for PBXProject "HitGopherAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B004A651CED5E25005BF00E /* Debug */,
+				1B004A661CED5E25005BF00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B004A671CED5E25005BF00E /* Build configuration list for PBXNativeTarget "HitGopherAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B004A681CED5E25005BF00E /* Debug */,
+				1B004A691CED5E25005BF00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B004A481CED5E25005BF00E /* Project object */;
+}

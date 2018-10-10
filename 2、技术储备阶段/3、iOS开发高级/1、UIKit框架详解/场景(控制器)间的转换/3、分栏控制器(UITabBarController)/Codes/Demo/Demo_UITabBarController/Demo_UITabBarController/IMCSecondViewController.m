@@ -17,6 +17,7 @@
 - (instancetype)init {
 	if (self = [super init]) {
 		UIImage *tabBarItemImage = [UIImage imageNamed:@"btn_img_normal_show"];
+        
 		
 		tabBarItemImage = [tabBarItemImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 	

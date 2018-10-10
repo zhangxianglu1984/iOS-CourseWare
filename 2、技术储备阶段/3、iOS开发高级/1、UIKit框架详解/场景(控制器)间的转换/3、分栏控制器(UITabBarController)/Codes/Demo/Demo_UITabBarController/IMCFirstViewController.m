@@ -36,6 +36,7 @@
 
 - (IBAction)switchButtonClickedAction:(UIButton *)button {
 	self.tabBarController.selectedIndex = 1;
+    
 }
 
 - (void)dealloc {
